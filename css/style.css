@@ -4,11 +4,11 @@
 
 @font-face {
     font-family: 'roccaregular';
-    src: url('/fonts/rocca-webfont.eot');
-    src: url('/fonts/rocca-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/rocca-webfont.woff') format('woff'),
-         url('/fonts/rocca-webfont.ttf') format('truetype'),
-         url('/fonts/rocca-webfont.svg#roccaregular') format('svg');
+    src: url('../fonts/rocca-webfont.eot');
+    src: url('../fonts/rocca-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/rocca-webfont.woff') format('woff'),
+         url('../fonts/rocca-webfont.ttf') format('truetype'),
+         url('../fonts/rocca-webfont.svg#roccaregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -16,11 +16,11 @@
 
 @font-face {
     font-family: 'CubanoRegular';
-    src: url('/fonts/cubano-regular-webfont.eot');
-    src: url('/fonts/cubano-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/cubano-regular-webfont.woff') format('woff'),
-         url('/fonts/cubano-regular-webfont.ttf') format('truetype'),
-         url('/fonts/cubano-regular-webfont.svg#CubanoRegular') format('svg');
+    src: url('../fonts/cubano-regular-webfont.eot');
+    src: url('../fonts/cubano-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cubano-regular-webfont.woff') format('woff'),
+         url('../fonts/cubano-regular-webfont.ttf') format('truetype'),
+         url('../fonts/cubano-regular-webfont.svg#CubanoRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -33,7 +33,7 @@ nav ul li {display: inline-block; font-family: 'CubanoRegular', Verdana, sans-se
 nav a, nav a:hover, nav a:active, nav a:visited { color: white; text-decoration: none; }
 nav a:hover { text-shadow: 2px 2px 2px #ce6300; }
 header { text-align: center; }
-header h1 { width: 533px; height: 285px; text-indent: -9999px; background: url(/images/logo_on_white.png) no-repeat; margin: 2em auto 0; }
+header h1 { width: 533px; height: 285px; text-indent: -9999px; background: url(../images/logo_on_white.png) no-repeat; margin: 2em auto 0; }
 header h2 { font-family: 'roccaregular', Verdana, sans-serif; font-size: 3em; color: #310000; margin: 1em auto }
 header h3 { font-family: 'CubanoRegular'; color: #ce6300; }
 
