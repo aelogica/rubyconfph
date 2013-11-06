@@ -27,7 +27,7 @@
 }
 
 body { background-color: #69c9f0; }
-h3 { font-family: 'roccaregular', Verdana, sans-serif; font-size: 4em; color: white; margin: 1em auto; text-align: center }
+h3 { font-family: 'roccaregular', Verdana, sans-serif; font-size: 4em; color: white; margin: auto; text-align: center }
 nav { background-color: #ff9c00; text-align: center; width: 100% }
 nav ul { margin-bottom: 0; }
 nav ul li {display: inline-block; font-family: 'CubanoRegular', Verdana, sans-serif; font-size: 2em; margin: .5em 1.2em; }
@@ -39,5 +39,21 @@ header h2 { font-family: 'roccaregular', Verdana, sans-serif; font-size: 3em; co
 header h3 { font-family: 'CubanoRegular'; color: #ce6300; font-size: 2.5em; }
 .container.sunny { width: 100%; background-color: #ffcc33; text-align: center; padding-bottom: 8em }
 .container.sunny .columns { float: none; display: inline-block; margin-left: auto; margin-right: auto; }
-#islands { background: url(../images/island.png) no-repeat; background-size: 100% auto;  margin: 0 auto; max-width: 1016px; height: 268px; position: relative; top: 160px; }
+#horses { background: url(../images/horses.png) no-repeat; background-size: 100% auto;  margin: 0 auto; max-width: 700px; height: 313px; position: relative; top: 110px; }
 .water { padding: 10em 0 }
+#sponsors{ background: url(../images/bg_wings1.png) no-repeat center center; max-width: 451px; height: 181px; background-size: 90%; line-height: 4.7em; color: #EC2024 }
+#venue { background: url(../images/bg_wings2.png) no-repeat center center; max-width: 505px; height: 118px; background-size: 90%; color: #006699; line-height: 2.2em }
+#speakers { background: url(../images/bg_wings3.png) no-repeat center center; max-width: 541px; height: 171px; background-size: 95%; line-height: 4.5em; }
+.water section { height: 200px; }
+
+@media screen and (max-width: 400px) {
+  header h1 { height: 165px; }
+  #horses { display: none; }
+  .water { padding: 0; }
+  #sponsors {
+    font-size: 2.5em;
+    line-height: 6.7em;
+  }
+  #venue { font-size: 2.5em; line-height: 3.5em }
+  #speakers { font-size: 2.5em; line-height: 6.2em; background-size: 100% }
+}
