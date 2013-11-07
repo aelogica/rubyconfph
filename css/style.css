@@ -26,8 +26,8 @@
 
 }
 
-body { background-color: #69c9f0; }
-h3 { font-family: 'roccaregular', Verdana, sans-serif; font-size: 4em; color: white; margin: auto; text-align: center }
+body { background-color: #69c9f0; font-size: 16px; font-family: 'CubanoRegular', helvetica, sans-serif; }
+h3 { font-family: 'roccaregular', Verdana, sans-serif; font-size: 3.5em; color: white; margin: auto; text-align: center;}
 nav { background-color: #ff9c00; text-align: center; width: 100% }
 nav ul { margin-bottom: 0; }
 nav ul li {display: inline-block; font-family: 'CubanoRegular', Verdana, sans-serif; font-size: 2em; margin: .5em 1.2em; }
@@ -35,25 +35,27 @@ nav a, nav a:hover, nav a:active, nav a:visited { color: white; text-decoration:
 nav a:hover { text-shadow: 2px 2px 2px #ce6300; }
 header { text-align: center; max-width: 960px }
 header h1 { max-width: 533px; height: 285px; text-indent: -9999px; background: url(../images/logo_on_white.png) no-repeat; background-size: 100% auto; margin: 2em auto 0; }
-header h2 { font-family: 'roccaregular', Verdana, sans-serif; font-size: 3em; color: #310000; margin: 1em auto }
-header h3 { font-family: 'CubanoRegular'; color: #ce6300; font-size: 2.5em; }
+header h2 { font-family: 'roccaregular', Verdana, sans-serif; font-size: 2.7em; color: #310000; margin: 1em auto }
+header h3 { font-family: 'CubanoRegular'; color: #ce6300; font-size: 2.0em; }
 .container.sunny { width: 100%; background-color: #ffcc33; text-align: center; padding-bottom: 8em }
 .container.sunny .columns { float: none; display: inline-block; margin-left: auto; margin-right: auto; }
 #horses { background: url(../images/horses.png) no-repeat; background-size: 100% auto;  margin: 0 auto; max-width: 700px; height: 313px; position: relative; top: 110px; }
-.water { padding: 10em 0 }
+.water { padding: 10em 0; display: none; }
 #sponsors{ background: url(../images/bg_wings1.png) no-repeat center center; max-width: 451px; height: 181px; background-size: 90%; line-height: 4.7em; color: #EC2024 }
 #venue { background: url(../images/bg_wings2.png) no-repeat center center; max-width: 505px; height: 118px; background-size: 90%; color: #006699; line-height: 2.2em }
 #speakers { background: url(../images/bg_wings3.png) no-repeat center center; max-width: 541px; height: 171px; background-size: 95%; line-height: 4.5em; }
-.water section { height: 200px; }
-
-@media screen and (max-width: 400px) {
+.water section { height: 500px; }
+#call4proposals { height: 200px; padding: 5em 0; }
+#call4proposals h3 { max-width: 360px; line-height: 0.9em; text-indent: -9999px; background: url(../images/call4proposals.png) no-repeat center center; height: 131px; background-size: 90%; }
+#call4proposals p { margin-top: 1em; font-size: 1.7em; line-height: 1em }
+@media screen and (max-width: 500px) {
   header h1 { height: 165px; }
   #horses { display: none; }
   .water { padding: 0; }
   #sponsors {
-    font-size: 2.5em;
+    font-size: 2.2em;
     line-height: 6.7em;
   }
-  #venue { font-size: 2.5em; line-height: 3.5em }
-  #speakers { font-size: 2.5em; line-height: 6.2em; background-size: 100% }
+  #venue { font-size: 2.2em; line-height: 3.5em }
+  #speakers { font-size: 2.2em; line-height: 6.2em; background-size: 100% }
 }
