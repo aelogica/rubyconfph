@@ -60,6 +60,7 @@ footer a#aelogica_logo{ text-indent: -9999px; background: url(../images/logo_ael
 @media screen and (max-width: 500px) {
   header h1 { height: 165px; }
   #horses { display: none; }
+  .container.sunny { padding-bottom: 20em }
   .water { padding: 0; }
   #sponsors {
     font-size: 2.2em;
