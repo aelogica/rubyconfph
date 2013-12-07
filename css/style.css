@@ -40,15 +40,21 @@ header h3 { font-family: 'CubanoRegular'; color: #ce6300; font-size: 2.0em; }
 .container.sunny { width: 100%; background-color: #ffcc33; text-align: center; padding-bottom: 8em }
 .container.sunny .columns { float: none; display: inline-block; margin-left: auto; margin-right: auto; }
 #horses { background: url(../images/horses.png) no-repeat; background-size: 100% auto;  margin: 0 auto; max-width: 700px; height: 313px; position: relative; top: 110px; }
-.speakers, .venue, .sponsors { padding: 10em 0 }
+.water { padding: 10em 0;}
+.container #sponsors, .container #venue, .container #speakers { margin: 2em auto 1em; }
+.container #venue, .container #sponsors { display: none; }
 #sponsors{ background: url(../images/bg_wings1.png) no-repeat center center; max-width: 451px; height: 181px; background-size: 90%; line-height: 4.7em; color: #EC2024 }
 #venue { background: url(../images/bg_wings2.png) no-repeat center center; max-width: 505px; height: 118px; background-size: 90%; color: #006699; line-height: 2.2em }
 #speakers{ background: url(../images/bg_wings3.png) no-repeat center center; max-width: 541px; height: 171px; background-size: 95%; line-height: 4.5em; }
-.water { padding: 10em 0;}
+.speakers .speaker { padding: 0 0 2em; text-align: center; font-size: 1.4em; height: 280px; text-shadow: none}
+.speakers .speaker img { height: 200px; width: 200px; border: 0; border-radius: 200px; margin-bottom: 20px }
+.speakers .speaker .name{display: block;}
+.speakers .speaker .caption{display: block; font-size: 0.6em; font-family: Helvetica, Verdana, sans-serif; font-weight: bold; color: #069; text-transform: uppercase;}
+.speakers .speaker a {display: block; font-size: 0.8em; text-decoration:none; color: #069;}
 #call4proposals { height: 200px; padding: 5em 0; }
 #call4proposals h3 { max-width: 360px; line-height: 0.9em; text-indent: -9999px; background: url(../images/call4proposals.png) no-repeat center center; height: 131px; background-size: 90%; }
 #call4proposals p { margin-top: 1em; font-size: 1.7em; line-height: 1em }
-footer { text-align: center; }
+footer.container { text-align: center; margin: 15em auto;}
 footer, footer a, footer a:visited { color: #069;}
 footer a#aelogica_logo{ text-indent: -9999px; background: url(../images/logo_aelogica.png) no-repeat; width: 118px; height: 20px; display: inline-block; }
 @media screen and (max-width: 500px) {
@@ -61,4 +67,5 @@ footer a#aelogica_logo{ text-indent: -9999px; background: url(../images/logo_ael
   }
   #venue { font-size: 2.2em; line-height: 3.5em }
   #speakers { font-size: 2.2em; line-height: 6.2em; background-size: 100% }
+  .speakers .speaker { padding-bottom: 1em }
 }
