@@ -40,15 +40,16 @@ header h3 { font-family: 'CubanoRegular'; color: #ce6300; font-size: 2.0em; }
 .container.sunny { width: 100%; background-color: #ffcc33; text-align: center; padding-bottom: 8em }
 .container.sunny .columns { float: none; display: inline-block; margin-left: auto; margin-right: auto; }
 #horses { background: url(../images/horses.png) no-repeat; background-size: 100% auto;  margin: 0 auto; max-width: 700px; height: 313px; position: relative; top: 110px; }
-.water { padding: 10em 0; display: none; }
+.speakers, .venue, .sponsors { padding: 10em 0 }
 #sponsors{ background: url(../images/bg_wings1.png) no-repeat center center; max-width: 451px; height: 181px; background-size: 90%; line-height: 4.7em; color: #EC2024 }
 #venue { background: url(../images/bg_wings2.png) no-repeat center center; max-width: 505px; height: 118px; background-size: 90%; color: #006699; line-height: 2.2em }
-#speakers { background: url(../images/bg_wings3.png) no-repeat center center; max-width: 541px; height: 171px; background-size: 95%; line-height: 4.5em; }
-.water section { height: 500px; }
+#speakers{ background: url(../images/bg_wings3.png) no-repeat center center; max-width: 541px; height: 171px; background-size: 95%; line-height: 4.5em; }
+.water { padding: 10em 0;}
 #call4proposals { height: 200px; padding: 5em 0; }
 #call4proposals h3 { max-width: 360px; line-height: 0.9em; text-indent: -9999px; background: url(../images/call4proposals.png) no-repeat center center; height: 131px; background-size: 90%; }
 #call4proposals p { margin-top: 1em; font-size: 1.7em; line-height: 1em }
-footer, footer a, footer a:visited { color: #CE6300; text-shadow: 1px 1px 1px #ff3 }
+footer { text-align: center; }
+footer, footer a, footer a:visited { color: #069;}
 footer a#aelogica_logo{ text-indent: -9999px; background: url(../images/logo_aelogica.png) no-repeat; width: 118px; height: 20px; display: inline-block; }
 @media screen and (max-width: 500px) {
   header h1 { height: 165px; }
