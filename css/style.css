@@ -42,7 +42,6 @@ header h3 { font-family: 'CubanoRegular'; color: #ce6300; font-size: 2.0em; }
 #horses { background: url(../images/horses.png) no-repeat; background-size: 100% auto;  margin: 0 auto; max-width: 700px; height: 313px; position: relative; top: 110px; }
 .water { padding: 10em 0;}
 .container #sponsors, .container #venue, .container #speakers { margin: 2em auto 1em; }
-.container #venue { display: none; }
 #sponsors{ background: url(../images/bg_wings1.png) no-repeat center center; max-width: 451px; height: 181px; background-size: 90%; line-height: 4.7em; color: #EC2024 }
 #venue { background: url(../images/bg_wings2.png) no-repeat center center; max-width: 505px; height: 118px; background-size: 90%; color: #006699; line-height: 2.2em }
 #speakers{ background: url(../images/bg_wings3.png) no-repeat center center; max-width: 541px; height: 171px; background-size: 95%; line-height: 4.5em; }
