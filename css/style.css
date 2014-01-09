@@ -63,8 +63,8 @@ header h3 { font-family: 'CubanoRegular'; color: #ce6300; font-size: 2.0em; }
 #call4proposals h3 { max-width: 360px; line-height: 0.9em; text-indent: -9999px; background: url(../images/call4proposals.png) no-repeat center center; height: 131px; background-size: 90%; }
 #call4proposals p { margin-top: 1em; font-size: 1.7em; line-height: 1em; text-align: center }
 #codeofconduct { background: #fffaaa; color: #f93; }
-#codeofconduct h3{ margin-bottom: 0.5em; line-height: auto; color: #f93; line-height: 80px }
-#codeofconduct p { margin: 2em }
+#codeofconduct h3{ padding-top:0.8em; color: #f93; text-shadow: 2px 2px 2px #fc3; }
+#codeofconduct p { margin: 2em; color: #CE6300 }
 
 footer.container { text-align: center; margin: 15em auto;}
 footer, footer a, footer a:visited { color: #069;}
