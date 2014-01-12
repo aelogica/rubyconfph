@@ -51,7 +51,7 @@ header h3 { font-family: 'CubanoRegular'; color: #ce6300; font-size: 2.0em; }
 .venue section h3 a { text-decoration: none; }
 .venue section p { text-align: left }
 .venue .address { background: #069; color: white; padding: 5px }
-.venue section p.small {font-size: 0.7em; font-family: Helvetica, Arial, Verdana, sans-serif }
+.venue section p.small {font-size: 0.6em; font-family: Helvetica, Arial, Verdana, sans-serif }
 .venue .details { font-family: Helvetica, Arial, Verdana, sans-serif; font-size: 1em}
 .venue .details p {text-align: center; }
 #speakers{ background: url(../images/bg_wings3.png) no-repeat center center; max-width: 541px; height: 171px; background-size: 95%; line-height: 4.5em; }
