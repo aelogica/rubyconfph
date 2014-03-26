@@ -46,6 +46,7 @@ header h3 { font-family: 'CubanoRegular'; color: #ce6300; font-size: 2.0em; }
 .container #sponsors, .container #venue, .container #speakers { margin: 2em auto 1em; }
 #sponsors{ background: url(../images/bg_wings1.png) no-repeat center center; max-width: 451px; height: 181px; background-size: 90%; line-height: 4.7em; color: #EC2024 }
 .sponsors section { margin-bottom: 4em }
+#schedule h4 { padding: 1em; text-align: center; }
 #venue { background: url(../images/bg_wings2.png) no-repeat center center; max-width: 505px; height: 118px; background-size: 90%; color: #006699; line-height: 2.2em }
 .venue section { text-align: center; }
 .venue section h3 { font-family: 'CubanoRegular'; font-size: 2em; }
