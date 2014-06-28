@@ -1,293 +1,150 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!doctype html>
+<html lang="en" class='yui3-js-enabled'>
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>RubyConf Philippines 2014</title>
-    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="css/style.css">
-
-    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-    <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>    
+    <meta name="description" content="A layout example that shows off a responsive product landing page.">
+    <title>Landing Page &ndash; Layout Examples &ndash; Pure</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-old-ie-min.css">
     <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
+    <!--<![endif]-->
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/marketing-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="css/marketing.css">
+    <!--<![endif]-->
+
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
   </head>
   <body>
-    <!--[if lt IE 7]>
-    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-    <![endif]-->
-    <nav class="">
-    <ul>
-      <!-- <li><a href="#">About</a></li> -->
-      <li><a href="#schedule">Schedule</a></li>
-      <li><a href="#speakers">Speakers</a></li>
-      <li><a href="#sponsors">Sponsors</a></li>
-      <li><a href="#register">Register</a></li>
-      <li><a href="#venue">Venue</a></li>
-    </ul>
-    </nav>
-    <div class="container sunny">
-      <header class="sixteen columns">
-      <h1>RubyConf Philippines</h1>
-      <h2>MARCH 28-29, 2014<br/>MANILA, PHILIPPINES</h2>
-      <h3>Join us in the first ever Ruby conference in the Philippines. Get to know the vibrant local community in 2 days of great Ruby talks and other exciting activities.</h3>
-      <p>March 27, 2014 - The day before the conference, there will be workshops in the afternoon (<a href="https://rubyconfph.wufoo.com/forms/ruby-on-aws/">Ruby on AWS</a>, <a href="https://rubyconfph.wufoo.com/forms/intro-to-ruby-on-rails/">Intro to Ruby on Rails</a>) and a PhRUG welcome gathering in the evening. More details to come.</p>
-      </header>
-      <div class="container">
-        <section id="call4proposals" class="eight columns">
-        <!-- <a name="proposals"></a>
-        <h3>Call For Proposals</h3>
-        <p>Our Call for Proposals has ended.</p>-->
-        <a name="register"></a>
-        <p>Registration is now closed.<br /><br />For the Ruby on AWS workshop, sign up <a href="https://rubyconfph.wufoo.com/forms/ruby-on-aws/">here</a>. Workshop ticket is Php 500.<br /><br />For the Intro to Ruby on Rails workshop, sign up <a href="https://rubyconfph.wufoo.com/forms/intro-to-ruby-on-rails/">here</a>. Workshop ticket is free or pay what you want.</p>
-        </section>
-      </div>
+    <!-- <div class="header"> -->
+    <!--   <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed"> -->
+
+    <!--     <ul> -->
+    <!--       <li class="pure-menu-selected"><a href="#speakers">Speakers</a></li> -->
+    <!--       <li><a href="#venue">Venue</a></li> -->
+    <!--       <li><a href="#sponsors">Sponsors</a></li> -->
+    <!--       <li><a href="#tickets">Tickets</a></li> -->
+    <!--     </ul> -->
+    <!--   </div> -->
+    <!-- </div> -->
+
+    <div class="splash-container">
     </div>
-    <div class="container speakers">
-      <a name="speakers"></a>
-      <h3 id="speakers">SPEAKERS</h3>
-      <section class="sixteen columns">
-      <div class="one-third column speaker alpha"><img src="images/konstantin_haase.png" width="200" height="200"/><span class="name">Konstantin Haase</span> <span class="caption">Sinatra, Travis CI</span>
-        <p>As maintainer of Sinatra, Konstantin Haase is an Open Source developer by heart. Ruby has become his language of choice since 2005. He regularly contributes to different widespread projects, including Rubinius, Rack, Rails and MRI. In 2012, he received the Ruby Hero Award for his outstanding contributions to the community. He now works at Travis CI in Berlin, Germany.</p>
-      </div>
-      <div class="one-third column speaker"><img src="images/koichi_sasada.jpg" width="200" height="200"/><span class="name">Koichi Sasada</span> <span class="caption">Ruby 2.1 Developer, Heroku</span>
-        <p>Koichi Sasada is a programmer, mainly developing the Ruby interpreter (CRuby/MRI). He received a Ph.D (Information Science and Technology) from the University of Tokyo in 2007. He became a faculty of University of Tokyo as an Assistant associate from 2006 to 2008 and Assistant professor from 2008 to 2012.</p>
-        <p>After 13 years in the university, he is now a member of Matz's team in Heroku, Inc. He is also a director of Ruby Association.</p>
-      </div>
-      <div class="one-third column speaker omega">
-        <img src="images/andre_arko.jpg" width="200" height="200"/>
-        <span class="name"><a href="#">André Arko</a></span> <span class="caption">Cloud City, Bundler</span>
-        <p>André thinks Ruby is pretty neat. He builds web applications for clients at Cloud City in San Francisco, and works on Bundler and Rubygems rather frequently.</p>
-      </div>
-      </section>
-      <section class="sixteen columns">
-      <div class="one-third column speaker alpha"><img src="images/bryan_bibat.jpg" width="200" height="200"/><span class="name">Bryan Bibat</span> <span class="caption">Cameraman for PhRUG</span>
-        <p>Bryan is a freelance Ruby on Rails trainer. He is the author of the open-sourced book "Rails: A Student Manual" and the creator of "RailsFTW", an alternative Rails installer to RailsInstaller for Windows. He is also an active member of the Philippine Ruby Users Group and often serves as the camera man and maintainer of the group website.</p>
-      </div>
-      <div class="one-third column speaker"><img src="images/david_calavera.jpeg" width="200" height="200"/><span class="name">David Calavera</span> <span class="caption">GitHub</span>
-        <p>David works as a developer at GitHub. There he's part of the team building GitHub Enterprise. In a previous life, he was member of the JRuby core team and the creator of the Trinidad application server.</p>
-      </div>
-      <div class="one-third column speaker omega"><img src="images/chang_sau_sheong.jpg" width="200" height="200"/><span class="name">Chang Sau Sheong</span> <span class="caption">PayPal</span>
-        <p>Chang Sau Sheong is the Director of Regional Solutions Engineering for Asia and Latin America in PayPal. He is responsible to deliver integrated solutions and products that are needed by business units the respective regions.</p>
 
-        <p>Previously, he was the Director of HP Labs Singapore, responsible for managing a team of research scientists and engineers focusing on researching, developing and testing cloud computing and Big Data technologies for HP.</p>
+    <div class="content-wrapper">
+      <div class="splash">
+        <h1 class="splash-head">Rubyconf Philippines</h1>
+        <p class="splash-subhead">
+          March 27-28, 2015<br />
+          Boracay Island
+        </p>
+      </div>
+      <!-- <div class="content"> -->
+      <!--   <h2 class="content-head is-center">Excepteur sint occaecat cupidatat.</h2> -->
 
-        <p>Before joining HP, Sau Sheong was the Chief Technology Officer for Garena and  Director of Engineering for Yahoo! Southeast Asia.  Sau Sheong is an active developer on many open source projects and has also published 3 technical books.  His latest is ‘Exploring Everyday Things with R and Ruby’ with O’Reilly Media, which explores how we can discover the data that is intertwined with our daily lives.</p>
-      </div>
-      </section>
-      <section class="sixteen columns">
-      <div class="one-third column speaker alpha"><img src="images/joseph_dayo.jpg" width="200" height="200"/><span class="name">Joseph Dayo</span> <span class="caption">Mobile/Web Developer</span>
-        <p>Joseph Dayo has been in the IT industry for 10 years. He has experience on developing on a variety of platforms. Most of those years has been about web development, and for the past 4 years he has been using Ruby on Rails and occasionally develops Android applications as well.</p>
+      <!--   <div class="pure-g"> -->
+      <!--     <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4"> -->
 
-        <p>He currently is involved with various opensource pet projects like Droiuby and is passionate about the future of Ruby on mobile.</p>
-      </div>
-      <div class="one-third column speaker">
-        <img src="images/kevin_dewalt.jpg" width="200" height="200"/>
-        <span class="name">Kevin Dewalt</span> <span class="caption">SoHelpful</span>
-        <p>Kevin Dewalt has been a hacker for 34 years, an entrepreneur for 18, and a VC/Angel for 10. For the past 5 years he has been evangelizing the Lean Startup movement worldwide and have mentored thousands of entrepreneurs, most recently through his <a href="http://sohelpful.me/kevindewalt">current startup</a>.</p>
+      <!--       <h3 class="content-subhead"> -->
+      <!--         <i class="fa fa-rocket"></i> -->
+      <!--         Get Started Quickly -->
+      <!--       </h3> -->
+      <!--       <p> -->
+      <!--       Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum. -->
+      <!--       </p> -->
+      <!--     </div> -->
+      <!--     <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4"> -->
+      <!--       <h3 class="content-subhead"> -->
+      <!--         <i class="fa fa-mobile"></i> -->
+      <!--         Responsive Layouts -->
+      <!--       </h3> -->
+      <!--       <p> -->
+      <!--       Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum. -->
+      <!--       </p> -->
+      <!--     </div> -->
+      <!--     <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4"> -->
+      <!--       <h3 class="content-subhead"> -->
+      <!--         <i class="fa fa-th-large"></i> -->
+      <!--         Modular -->
+      <!--       </h3> -->
+      <!--       <p> -->
+      <!--       Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum. -->
+      <!--       </p> -->
+      <!--     </div> -->
+      <!--     <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4"> -->
+      <!--       <h3 class="content-subhead"> -->
+      <!--         <i class="fa fa-check-square-o"></i> -->
+      <!--         Plays Nice -->
+      <!--       </h3> -->
+      <!--       <p> -->
+      <!--       Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum. -->
+      <!--       </p> -->
+      <!--     </div> -->
+      <!--   </div> -->
+      <!-- </div> -->
 
-        <p>Kevin uses Ruby & Rails to execute more effectively on his startup. He has taught hundreds of hackers to do the same - and he can help you as well. </p>
-      </div>
-      <div class="one-third column speaker omega"><img src="images/ashe_dryden.jpg" width="200" height="200"/>
-        <span class="name">Ashe Dryden</span> <span class="caption">Developer, Diversity Advocate</span>
-        <p>Ashe Dryden is an indie ruby developer living in Madison, WI. She's been involved with the web in some form or another over the course of the past 13 years.</p> <p>Ashe is an outspoken educator for diversity, inclusiveness, and empathy. She's currently writing a book on increasing diversity within companies, as well as working on a video series and site to serve as a resource to people who want to get involved.</p> <p>When she isn't discussing technology or it’s intersection with culture, she's cycling, tweeting, playing board games, debating the social implications of Star Trek episodes, being that awkward girl at the party, and waiting for her next burrito fix.</p>
-      </div>
-      </section>
-      <section class="sixteen columns">
-      <div class="one-third column speaker alpha"><img src="images/pj_hagerty.jpg" width="200" height="200"/><span class="name">PJ Hagerty</span> <span class="caption">Engine Yard</span>
-        <p>A Ruby on Rails developer for the last 5 years, PJ currently works at Engine Yard as the Community Engineer. Additionally, he organizes the Western New York Ruby Brigade. Traveling to conferences and Ruby meet ups around the US and Canada, PJ likes to spread the word on the importance of community and coding, stressing the importance of outreach and focusing on the human side of being a coder.</p>
+      <!-- <div id='speakers' class="content l-box-lrg pure-g"> -->
+      <!--   <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5"> -->
+      <!--     <img class="pure-img-responsive" alt="File Icons" width="300" src="img/common/file-icons.png"> -->
+      <!--   </div> -->
+      <!--   <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5"> -->
 
-        <p>PJ has been known to organize impromptu conference jam sessions, karaoke smackdowns, and is a member of the original "RailsConf Band".</p>
+      <!--     <h2 class="content-head content-head-ribbon">Laboris nisi ut aliquip.</h2> -->
+
+      <!--     <p> -->
+      <!--     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod -->
+      <!--     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, -->
+      <!--     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo -->
+      <!--     consequat. Duis aute irure dolor. -->
+      <!--     </p> -->
+      <!--   </div> -->
+      <!-- </div> -->
+
+      <div class="content">
+        <h2 class="content-head is-center">Join us for the second ruby conference in the Philippine Islands. Get to know the vibrant local community in 2 days of Sun, Sand & Ruby</h2>
+
+        <div class="pure-g">
+            <form class="pure-form pure-form-stacked">
+              <fieldset>
+
+                <!-- <label for="name">Your Name</label> -->
+                <!-- <input id="name" type="text" placeholder="Your Name"> -->
+
+
+                <!-- <label for="email">Your Email</label> -->
+                <input id="email" type="email" placeholder='Enter email for latest news'>
+
+                <button type="submit" class="pure-button">Keep me updated</button>
+              </fieldset>
+            </form>
+
+        <!--   <div class="l-box-lrg pure-u-1 pure-u-md-3-5"> -->
+        <!--     <h4>Contact Us</h4> -->
+        <!--     <p> -->
+        <!--     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod -->
+        <!--     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, -->
+        <!--     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo -->
+        <!--     consequat. -->
+        <!--     </p> -->
+
+        <!--     <h4>More Information</h4> -->
+        <!--     <p> -->
+        <!--     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod -->
+        <!--     tempor incididunt ut labore et dolore magna aliqua. -->
+        <!--     </p> -->
+        <!--   </div> -->
+        <!-- </div> -->
       </div>
-      <div class="one-third column speaker"><img src="images/ben_lovell.jpg" width="200" height="200"/><span class="name">Ben Lovell</span> <span class="caption">1minus1</span>
-        <p>Ben takes himself very seriously. He works for 1minus1, a digital agency hailing from Farnham, the town that time forgot - in sunny England. He is a rubyist, go-nut, open source lover and contributor, and has spent the last XX years developing the most epic APIs. When not shipping bugs, Ben can be found grooming his beard.</p>
-      </div>
-      <div class="one-third column speaker omega"><img src="images/jervin_real.jpg" width="200" height="200"/><span class="name">Jervin Real</span> <span class="caption">Percona</span>
-        <p>Jervin is a member of Percona's Rapid Response consulting team. When you come to Percona for consulting and support, chances are he'll be greeting you first. His primary role is to make sure customer issues are handled efficiently and professionally. Jervin joined Percona in May 2010. Starting as a PHP programmer, Jervin quickly got involved with the LAMP stack. He has worked on several high-traffic sites and a number of specialized web applications; i.e., mobile content distribution. Before joining Percona, Jervin also worked with several hosting companies, providing care for customer hosted services and data on both Linux and Windows.</p>
-      </div>
-      </section>
-      <section class="sixteen columns">
-      <div class="one-third column speaker alpha"><img src="images/michael_reinsch.jpg" width="200" height="200"/><span class="name">Michael Reinsch</span> <span class="caption">Doorkeeper</span>
-        <p>Michael is a software developer turned tech entrepreneur. He is currently running a bootstrapped startup (http://www.doorkeeperhq.com), and so also doing tech consulting on the side.</p>
-        <p>His first encounter with Ruby was 8 years ago in form of a CGI based web/mobile app. These days he's mainly developing in Ruby for Rails. He loves working in small teams, handling everything from development to operations, from Ruby to JavaScript, from hypothesis to learning.</p>
-      </div>
-      <div class="one-third column speaker"><img src="images/zachary_scott.jpg" width="200" height="200"/><span class="name">Zachary Scott</span> <span class="caption">CRuby Committer</span>
-        <p>zzak is the documentation maintainer for cruby and contributor to many other open-source projects.</p>
-      </div>
-      <div class="one-third column speaker omega"><img src="images/nick_sutterer.jpg" width="200" height="200"/><span class="name">Nick Sutterer</span> <span class="caption">Cells, Apotomo</span>
-        <p>Nick Sutterer is proud to be a member of the Ruby open source community. His Cells and Apotomo projects have been bringing increased view modularity and event-driven programming to Rails for years.</p> <p>He has enjoyed attending, and speaking at Ruby conferences around the world. Buy him a beer sometime, and with very little prompting, he will tell you why there should be no such thing as a double-render error, why you should not confuse your models with your resources, and how to play a mean bass in a punk rock band.</p>
-      </div>
-      </section>
-      <section class="sixteen columns">
-      <div class="one-third column speaker alpha"><img src="images/winston_teo.jpg" width="200" height="200"/><span class="name">Winston Teo</span> <span class="caption">JollyGoodCode</span>
-        <p>Winston is the Founder of JollyGoodCode, a consultancy that specialises in Agile and Ruby. Formerly from Pivotal Labs, he's been doing Ruby since 2007 and is a fervent proponent of engineering happiness. Winston loves to contribute to open source, having built gems such as GoogleVisualr and Cactus. He's also the organiser of monthly Ruby meetups in Singapore and RedDotRubyConference since 2013.</p>
-      </div>
-      <div class="one-third column speaker"><img src="images/amy_wibowo.jpg" width="200" height="200"/><span class="name">Amy Wibowo</span> <span class="caption">Airbnb</span>
-        <p>Amy is a software engineer at Airbnb.  Prior to Airbnb, she did machine learning research on the ASIMO team at Honda Research Institute in Japan and HCI research at the University of Tokyo.  She also enjoys hardware hacking and the intersection of art and technology-- in particular, making tools that enable people to be more creative.</p>
-      </div>
-      <div class="one-third column speaker omega"><img src="images/andy_su.jpg" width="200" height="200"/><span class="name">Andy Su</span> <span class="caption">inDinero</span>
-        <p>Andy Su is the co-founder and Chief Technology Officer at inDinero. The company has helped thousands of entrepreneurs better manage their accounting, taxes, and payroll. He studied computer science at U.C. Berkeley and has won state and national math competitions. Andy has been featured in Forbes' 30 Under 30 and Inc Magazine's 30 Under 30 lists.</p>
-      </div>
-      </section>
-      <section class="sixteen columns">
-      <div class="one-third column speaker alpha"><img src="images/vipul_amler.jpg" width="200" height="200"/><span class="name">Vipul Amler</span> <span class="caption">BigBinary</span>
-        <p>Vipul works as a Software Consultant with BigBinary LLC. He is an avid Rails and Ruby Projects Contributor. His spare time is spent exploring and contributing to many Open Source ruby projects, when not dabbling with Clojure or Rubymotion.</p>
-      </div>
-      </section>
+
+      <!-- <div class='footer l-box'> -->
+      <!--   View the source of this layout to learn more. Made with love by the YUI Team. -->
+      <!-- </div> -->
     </div>
-    <div class="container" id="schedule">
-      <h3>Schedule</h3>
-      <a name="schedule"></a>
-      <h4>Thursday, March 27</h4>
-      12:00pm-4pm - Ruby on AWS Workshop by Markku Lepisto, Senior Technology Evangelist at AWS<br />
-      1:00pm-5pm - Intro to Ruby on Rails Workshop by Ramon Tayag, Developer at Aelogica<br />
-      6:00pm - Dinner and Drinks at Barcino, 5th level SM Aura<br />
-      <h4>Friday, March 28</h4>
-      9:00am-10:00am - Registration & Snacks<br />
-      10:00am-10:15am - Announcements<br />
-      10:15am-11:15am - Architecting Chaos by Konstantin Haase<br />
-      11:15am-11:30am - Break<br />
-      11:30am-12:00pm - Rapid App Development Using Ruby on Android by Joseph Dayo<br />
-      12:00pm-12:30pm - Lessons Learned from 8 Years of Hosting Ruby Apps by Michael Reinsch<br />
-      12:30pm-2:00pm - Lunch <br />
-      2:00pm-2:30pm - So, You Want To Teach Ruby and Rails by Bryan Bibat<br />
-      2:30pm-3:00pm - Money, Sex and Evolution by Sau Sheong Chang<br />
-      3:00pm-3:30pm - Ruby Groups: Act Locally - Think Globally by PJ Hagerty<br />
-      3:30pm-4:00pm - Break <br />
-      4:00pm-4:30pm - Happy Teams by Winston Teo<br />
-      4:30pm-5:00pm - GitHub Enterprise's Toolchain by David Calavera<br />
-      5:00pm-5:30pm - Extreme Makeover: Rubygems Edition by André Arko<br />
-      7:00pm-9:00pm - Birds of a Feather Sessions & Hack Night
-
-      <h4>Saturday, March 29</h4>
-      9:00am-10:00am - Snacks<br />
-      10:00am-10:15am - Announcements<br />
-      10:15am-11:15am - Memory Management Tuning in Ruby by Koichi Sasada<br />
-      11:15am-11:30am - Break<br />
-      11:30am-12:00pm - Open Source Isn't For Everyone, But It Could Be by Ashe Dryden<br />
-      12:00pm-12:30pm - ZOMGscale! With Celluloid & JRuby by Ben Lovell<br />
-      12:30pm-2:00pm - Lunch<br />
-      2:00pm-2:30pm - High Performance MySQL and Rails by Jervin Real<br />
-      2:30pm-3:00pm - Sweaters as a Service: Adventures in Electronic Knitting by Amy Wibowo<br />
-      3:00pm-3:30pm - How to Use Ruby & Rails to Hack Your MVP by Kevin Dewalt<br />
-      3:30pm-4:00pm - Break <br />
-      4:00pm-4:30pm - Lightning Talks by You<br />
-      4:30pm-5:00pm - Fear Of The Class - A Refactoring Tale by Nick Sutterer<br />
-      5:00pm-5:30pm - Ruby-core for Tenderfeet by Zachary Scott<br />
-      7:00pm-10:00pm - After-party by GitHub at Bugsy's Burgos Circle
-    </div>
-    <a name="venue"></a>
-    <div class="container venue">
-      <h3 id="venue">VENUE</h3>
-      <section class="sixteen columns">
-        <h3><a href="http://www.smxtaguig.com/">SMX Taguig (SM Aura)</a></h3>
-      </section>
-      <section class="sixteen columns">
-        <div class="eight columns alpha">
-      <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=SM+Aura+Premier,+McKinley+Parkway,+Taguig+City,+Metro+Manila,+Philippines&amp;sll=14.546118,121.053758&amp;sspn=0.01402,0.01914&amp;ie=UTF8&amp;hq=SM+Aura+Premier,+McKinley+Parkway,&amp;hnear=Taguig,+Metro+Manila,+Philippines&amp;t=m&amp;ll=14.545862,121.053755&amp;spn=0.062136,0.006359&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=SM+Aura+Premier,+McKinley+Parkway,+Taguig+City,+Metro+Manila,+Philippines&amp;sll=14.546118,121.053758&amp;sspn=0.01402,0.01914&amp;ie=UTF8&amp;hq=SM+Aura+Premier,+McKinley+Parkway,&amp;hnear=Taguig,+Metro+Manila,+Philippines&amp;t=m&amp;ll=14.545862,121.053755&amp;spn=0.062136,0.006359" style="text-align:left">View Larger Map</a></small>
-        </div>
-        <div class="eight columns omega">
-	  <p>RubyConfPH will be held at SMX Convention Center (Taguig). SMX is on the 3rd and 4th levels of SM Aura Premier shopping mall.</p>
-          <p class="address">26th Street corner McKinley Parkway Taguig City 1634</p>
-          <p class="small">The venue is situated at Bonifacio Global City (also known as The Fort), the newest urban lifestyle and booming business district of Metro Manila. Home to many modern skyscrapers, upscale condominiums and multinational educational institutions, it is very safe to roam around BGC and enjoy its numerous shopping establishments, trendy restaurants and other recreational places. BGC is 30-45 minutes away from the airport and 15 minutes away from Makati City Central Business District.</p>
-        </div>
-      </section>
-      <section class="details">
-	<h4>Transportation and Parking Details</h4>
-	<ul>
-  	  <li>Jeepneys from MRT Ayala Station going to McKinley which could unload passengers right across SM Aura</li>
-	  <li>The Fort Buses (east route) unload passengers on 26th Street, by the side of SM Aura</li>
-	  <li>Cabs can drop you off at the SM Aura entrance</li>
-	  <li>Mall parking and valet parking are available for private cars</li>
- 	</ul>
-	<h4>Accommodations</h4>
-  <p>The conference hotel is <a href="http://www.sedahotels.com/bgc/index.php">Seda Hotel</a> which is 5 minutes away from the venue. The discounted rate is Php5,500 (plus tax) per night. There is no conference code to use. You'll have to contact us at crigor@rubyconf.ph if you want to avail of the rate.<br /></br>The other hotel inside Bonifacio Global City is <a href="http://f1hotelmanila.com/">F1 Hotel</a>. Hotels in Makati are a short taxi ride away.</p>
-      </section>
-    </div>
-    <a name="sponsors"></a>
-    <div class="container sponsors">
-      <h3 id="sponsors">SPONSORS</h3>
-      <section class="sixteen columns">
-        <h4>Gold</h4>
-        <br/>
-        <div class="eight columns alpha">
-          <a href="http://www.engineyard.com"><img src="images/EY_Logotype.jpg" width="100%" alt="EngineYard Logo"></a><br/><br/>
-          <p>Engine Yard is the leading cloud application management platform empowering developers and DevOps to deploy, manage, monitor and control applications in the public and private cloud. We give our customers unmatched control and choice through a broad and trusted application cloud, coupled with expert support, enabling them to focus on creating great applications instead of managing their platform.  Thousands of customers in 58 countries run on Engine Yard, from explosive-growth Web startups to Fortune 500 enterprises. We're backed by some of the most innovative venture capital firms and cloud pioneers including Benchmark Capital, New Enterprise Associates, Oracle and Amazon.</p>
-        </div>
-        <div class="eight columns omega">
-          <a href="http://aelogica.com"><img src="images/aelogica_logo.png" width="100%"></a><br/><br/>
-          <p>ÆLOGICA is the premier Ruby on Rails and mobile development company with operations in the Philippines.</p>
-          <p>ÆLOGICA makes awesome stuff — from websites to mobile apps — for customers around the world. ÆLOGICIANS are a dedicated team of professional developers, designers, enthusiasts, and problem-solvers with a passionate drive to make customers happy.</p>
-          <p>If you are looking for a great place to apply your skills and hone your craft, visit their <a href="http://aelogica.com/careers-aelogica/" target="_blank">careers page</a> and apply.  
-        </div>
-      </section>
-      <section class="sixteen columns">
-        <h4>Silver</h4>
-      <div class="two columns alpha"><img src="images/spacer.gif" width="1"/></div>
-      <div class="six columns">
-        <a href="http://www.github.com"><img src="images/GitHub_Logo.png" width="100%" alt="GitHub logo"/></a>
-        <p>GitHub is the best way to build software together. Whether it's your company's app, your favorite open source library, or a weekend side project, GitHub helps everyone work better by providing tools for easier collaboration and code sharing on any device. Start collaborating today—open source project hosting is free!</p>
-      </div>
-      <div class="six columns">
-	<a href="http://launchpadrecruits.com/dev/"><img src="images/launchpad_recruits.jpg" width="100%" alt="Launchpad Recruits logo"/></a>
-	<p>Launchpad Recruits are a team of Rails, media and mobile experts who are passionate about building our great product and learning new technologies.</p>
-	<p>They are an online video interviewing platform that helps employers make better and faster shortlisting decisions in their candidate screening process.</p>
-	<p>They are looking for exceptional and like-minded Rails developers to join their team - <a href="http://launchpadrecruits.com/dev/">learn more</a>.</p>
-      </div>
-      <div class="two columns omega"></div>
-	<div class="five columns alpha"><img src="images/spacer.gif" width="1"></div>
-	<div class="six columns">
-	  <a href="http://proudcloud.net"><img src="images/logo_proudcloud.png" width="100%" alt="Proudcloud logo"/></a>
-	  <p>Proudcloud is an agile Ruby on Rails, Javascript, and iOS development firm in Manila that has been serving the requirements of startups from N. America, Europe, Canada, and Australia since 2009.</p>
-	  <p> Aside from client work, Proudcloud is also the technology partner for local startups such Guestlist.ph, Artisteconnect.com, NDFY.me, and HeyGarch.com.</p>
-	</div>
-	<div class="five columns omega"></div>
-      </section>
-      <section class="sixteen columns">
-        <h4>Bronze</h4>
-      <div class="six columns alpha"><img src="images/spacer.gif" width="1"/></div>
-      <div class="four columns">
-	<a href="http://en.gaiax.com/"><img src="images/gaiax_logo.gif" width="100%" alt="Gaiax logo"/></a>
-      </div>
-      <div class="six columns"></div>
-    </div>
-    <div class="container" id="codeofconduct">
-      <h3>CODE OF CONDUCT</h3>
-      <section class="sixteen columns">
-        <p>Our conference is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks, workshops, parties, Twitter and other online media. Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organisers.</p>
-      </section>
-    </div>
-    <footer class="container">
-    <div class="sixteen columns">
-      For questions and comments please email: <a href="mailto:crigor@rubyconf.ph">crigor@rubyconf.ph</a>
-    </div>
-    <div class="container">
-      <div class="sixteen columns">
-        Website by <a id="aelogica_logo" href="http://aelogica.com">AELOGICA</a>
-      </div>
-    </div>
-    </footer>
-
-
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
-
-    <script src="js/main.js"></script>
-
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-45901251-1', 'rubyconf.ph');
-      ga('send', 'pageview');
-
-    </script>
   </body>
 </html>
