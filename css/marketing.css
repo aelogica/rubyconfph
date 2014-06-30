@@ -50,6 +50,21 @@ label {
     height: auto;
 }
 
+#twitter-link {
+  position: relative;
+  z-index: 100;
+}
+
+#twitter-link a {
+  color: #f9f9f4;
+  position: fixed;
+  right: 1em;
+}
+
+#twitter-link a:hover {
+  color: #d0d2c4;
+}
+
 /*
  * -- LAYOUT STYLES --
  * These are some useful classes which I will need
@@ -178,23 +193,30 @@ a.pure-button-primary {
 .splash-head {
     font-size: 20px;
     font-weight: bold;
-    color: white;
+    color: #f9f9f4;
     /* border: 3px solid white; */
     font-weight: 100;
     /* border-radius: 5px; */
     line-height: 1em;
     font-family: 'sand', sans-serif;
     text-align: center;
+    text-shadow: 2px 2px 5px rgba(90, 90, 90, 1);
 }
 
 /* This is the subheading that appears on the blue section */
 .splash-subhead {
-    color: white;
+    color: #f9f9f4;
     font-family: 'lifes-a-beach', sans-serif;
     letter-spacing: 0.05em;
     opacity: 0.8;
     font-size: 2em;
     line-height: 1.2em;
+    text-shadow: 2px 2px 5px rgba(90, 90, 90, 1);
+}
+
+#main-content {
+  /* background: url('../images/sandbg.png') repeat-x; */
+  background-color: #d0d2c4;
 }
 
 /*
@@ -212,7 +234,6 @@ a.pure-button-primary {
 }
 
 .content {
-  /* background: #cc9f69; */
   background: #d0d2c4;
 }
 
@@ -305,3 +326,4 @@ a.pure-button-primary {
         font-size: 500%;
     }
 }
+
