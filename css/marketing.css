@@ -171,6 +171,9 @@ a.pure-button-primary {
 .splash-container {
     background-image: url('../images/background.jpg');
     background-size: cover;
+    background-position: 0 -50px;
+    background-repeat: no-repeat;
+    background-color: #d0d2c4;
     z-index: 1;
     overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */
@@ -217,6 +220,8 @@ a.pure-button-primary {
 #main-content {
   /* background: url('../images/sandbg.png') repeat-x; */
   background-color: #d0d2c4;
+  position: absolute;
+  bottom: 0;
 }
 
 /*
@@ -224,9 +229,9 @@ a.pure-button-primary {
  * This represents the content area (everything below the blue section)
  */
 .content-wrapper {
+    height: 100%;
     /* These styles are required for the "scroll-over" effect */
     position: absolute;
-    top: 25%;
     width: 100%;
     min-height: 12%;
     z-index: 2;
@@ -282,7 +287,7 @@ a.pure-button-primary {
     }
     /* We want to give the content area some more padding */
     .content {
-        padding: 1em;
+        padding: 0.5em;
     }
 
     /* We can align the menu header to the left, but float the
