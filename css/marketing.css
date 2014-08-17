@@ -103,6 +103,11 @@ label {
     margin-bottom: 1em;
 }
 
+.pure-form input[type=submit] {
+  width: auto;
+  border: none;
+}
+
 /*
  * -- PURE BUTTON STYLES --
  * I want my pure-button elements to look a little different
