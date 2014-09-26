@@ -41,7 +41,13 @@ h4,
 h5,
 h6,
 label {
-    color: #34495e;
+    color: #5d6357;
+    font-family: 'lifes-a-beach', sans-serif;
+}
+
+a {
+  color: #3c72b7;
+  text-decoration: none;
 }
 
 .pure-img-responsive {
@@ -58,6 +64,7 @@ label {
   color: #f9f9f4;
   position: fixed;
   right: 1em;
+  top: 0;
 }
 
 #twitter-link a:hover {
@@ -172,20 +179,13 @@ a.pure-button-primary {
     z-index: 1;
     overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */
-    width: 100%;
-    height: 88%;
-    top: 0;
-    left: 0;
-    position: fixed !important;
+    height: 700px;
 }
 
 .splash {
     /* absolute center .splash within .splash-container */
     width: 80%;
-    height: 50%;
     margin: auto;
-    position: absolute;
-    top: 100px; left: 0; bottom: 0; right: 0;
     text-align: center;
     text-transform: uppercase;
 }
@@ -225,12 +225,20 @@ a.pure-button-primary {
 .content-wrapper {
     /* These styles are required for the "scroll-over" effect */
     position: absolute;
-    top: 87%;
+    top: 75%;
     width: 100%;
     min-height: 12%;
     z-index: 2;
     background: white;
 
+}
+
+.content {
+  background: #d0d2c4;
+}
+
+.content .l-box-lrg {
+  padding: 0.5em 2em;
 }
 
 /* This is the class used for the main content headers (<h2>) */
@@ -257,6 +265,8 @@ a.pure-button-primary {
 /* This is the class used for the dark-background areas. */
 .ribbon {
     background: #2d3e50;
+    /* background-image: url('../images/crht-boracay-gal-05.jpg'); */
+    /* background-size: cover; */
     color: #aaa;
 }
 
@@ -298,8 +308,9 @@ a.pure-button-primary {
     /* We decrease the width of the .splash, since we have more width
     to work with */
     .splash {
-        width: 50%;
-        height: 50%;
+      margin-top: 10em;
+        /* width: 50%; */
+        /* height: 50%; */
     }
 
     .splash-head {
