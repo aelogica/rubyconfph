@@ -1,3 +1,23 @@
+@font-face {
+  font-family: 'lifes-a-beach-hollow';
+  src: url('../fonts/lifes-a-beach-hollow.ttf');
+}
+
+@font-face {
+  font-family: 'lifes-a-beach';
+  src: url('../fonts/lifes-a-beach.ttf');
+}
+
+@font-face {
+  font-family: 'sandy';
+  src: url('../fonts/SandyTextHmkBold.ttf');
+}
+
+@font-face {
+  font-family: 'sand';
+  src: url('../fonts/sand.ttf');
+}
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -27,6 +47,21 @@ label {
 .pure-img-responsive {
     max-width: 100%;
     height: auto;
+}
+
+#twitter-link {
+  position: relative;
+  z-index: 100;
+}
+
+#twitter-link a {
+  color: #f9f9f4;
+  position: fixed;
+  right: 1em;
+}
+
+#twitter-link a:hover {
+  color: #d0d2c4;
 }
 
 /*
@@ -157,21 +192,30 @@ a.pure-button-primary {
 
 /* This is the main heading that appears on the blue section */
 .splash-head {
-    font-size: 20px;
+    font-size: 2.5em;
     font-weight: bold;
     color: white;
-    border: 3px solid white;
-    padding: 1em 1.6em;
     font-weight: 100;
     border-radius: 5px;
     line-height: 1em;
+
+    font-family: 'sand', sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(90, 90, 90, 1);
 }
 
 /* This is the subheading that appears on the blue section */
 .splash-subhead {
-    color: white;
+    color: #f9f9f4;
+    font-family: 'lifes-a-beach', sans-serif;
     letter-spacing: 0.05em;
     opacity: 0.8;
+    font-size: 2em;
+    line-height: 1.2em;
+    text-shadow: 2px 2px 5px rgba(90, 90, 90, 1);
+    /* color: white; */
+    /* letter-spacing: 0.05em; */
+    /* opacity: 0.8; */
 }
 
 /*
@@ -278,6 +322,7 @@ a.pure-button-primary {
 @media (min-width: 78em) {
     /* We increase the header font size even more */
     .splash-head {
-        font-size: 300%;
+        font-size: 350%;
+        line-height: 1.2;
     }
 }
