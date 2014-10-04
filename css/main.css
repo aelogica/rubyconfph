@@ -119,6 +119,7 @@ a.pure-button-primary {
     color: white;
     font-family: 'sand';
     font-size: 1.1em;
+    margin-top: -240px;
 }
 .home-menu.pure-menu-open {
     background: #2d3e50;
@@ -153,9 +154,23 @@ a.pure-button-primary {
 .home-menu li a:hover,
 .home-menu li a:focus {
     background: none;
-    border: none;
+    /* border: none; */
     color: #AECFE5;
 }
+
+.home-menu.active {
+  margin-top: 0;
+}
+
+.home-menu.active ul {
+  margin-top: 2em;
+}
+
+.home-menu.pure-menu-horizontal.active li {
+  display: block;
+}
+
+
 
 
 .splash-container {
@@ -171,6 +186,7 @@ a.pure-button-primary {
     margin: auto;
     text-align: center;
     text-transform: uppercase;
+    margin-top: 40%;
 }
 
 .splash-head {
@@ -241,7 +257,41 @@ a.pure-button-primary {
     background: #111;
 }
 
+.menu-link {
+    position: fixed;
+    display: block; /* show this only on small screens */
+    top: 0;
+    left: 0; /* "#menu width" */
+    background: rgba(45,62,80);
+    background: rgba(45,62,80,0.5);
+    /* font-size: 10px; /* change this value to increase/decrease button size */ 
+    z-index: 1000;
+    padding: 0.5em;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.menu-link, .home-menu {
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.home-menu.active {
+
+}
+
+.home-menu.active li {
+  width: 100%;
+}
+
+
 @media (min-width: 48em) {
+    .menu-link {
+      display: none;
+    }
 
     body {
         font-size: 16px;
@@ -252,6 +302,8 @@ a.pure-button-primary {
 
     .home-menu {
         text-align: center;
+        display: block;
+        margin-top: 0;
     }
 
     .splash {
