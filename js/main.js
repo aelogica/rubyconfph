@@ -6,4 +6,9 @@ $( document ).ready(function() {
       $('.home-menu').addClass('active');
     }
   });
+
+  $('.home-menu a').click(function(){
+    console.log("clicked");
+    $('.home-menu').removeClass('active');
+  });
 });
