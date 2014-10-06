@@ -8,7 +8,6 @@ $( document ).ready(function() {
   });
 
   $('.home-menu a').click(function(){
-    console.log("clicked");
     $('.home-menu').removeClass('active');
   });
 });
