@@ -291,6 +291,11 @@ a.pure-button-primary {
   width: 100%;
 }
 
+@media (max-width: 320px) and (orientation:landscape) {
+  .content-wrapper {
+    top: 160%;
+  }
+}
 
 @media (min-width: 48em) {
     .menu-link {
