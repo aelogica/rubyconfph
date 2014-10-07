@@ -291,7 +291,7 @@ a.pure-button-primary {
   width: 100%;
 }
 
-@media (max-width: 320px) and (orientation:landscape) {
+@media (max-width: 570px) and (orientation:landscape) {
   .content-wrapper {
     top: 160%;
   }
