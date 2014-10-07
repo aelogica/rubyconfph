@@ -171,6 +171,10 @@ a.pure-button-primary {
 }
 
 
+.home-menu.pure-menu-horizontal li {
+  display: block;
+}
+
 
 
 .splash-container {
@@ -304,6 +308,10 @@ a.pure-button-primary {
         text-align: center;
         display: block;
         margin-top: 0;
+    }
+
+    .home-menu.pure-menu-horizontal li {
+      display: inline-block;
     }
 
     .splash {
