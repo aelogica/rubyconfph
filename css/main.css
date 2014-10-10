@@ -48,6 +48,9 @@ a {
 
 .pure-img-responsive {
     max-width: 100%;
+    background: #fff;
+    padding: 0.3em;
+    box-shadow: 3px 3px 3px #5d6357;
 }
 
 #twitter-link {
@@ -222,12 +225,15 @@ a.pure-button-primary {
     width: 100%;
     min-height: 12%;
     z-index: 2;
-    background: white;
-
+    background: #d0d2c4;
 }
 
 .content {
   background: #d0d2c4;
+}
+
+.pure-g {
+  border-bottom: 1px dashed #5d6357;
 }
 
 .content .l-box-lrg {
@@ -239,10 +245,6 @@ a.pure-button-primary {
     text-transform: uppercase;
     letter-spacing: 0.1em;
     margin: 2em 0 1em;
-}
-
-.content-head-ribbon {
-    color: white;
 }
 
 .content-subhead {
@@ -290,6 +292,9 @@ a.pure-button-primary {
 .home-menu.active li {
   width: 100%;
 }
+
+
+/* -------------------- */
 
 @media (max-width: 570px) and (orientation:landscape) {
   .content-wrapper {
