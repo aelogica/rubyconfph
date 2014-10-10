@@ -50,7 +50,7 @@ a {
     max-width: 100%;
     background: #fff;
     padding: 0.3em;
-    box-shadow: 3px 3px 3px #5d6357;
+    box-shadow: 0 3px 10px #5d6357;
 }
 
 #twitter-link {
@@ -232,7 +232,7 @@ a.pure-button-primary {
   background: #d0d2c4;
 }
 
-.pure-g {
+.content > .pure-g {
   border-bottom: 1px dashed #5d6357;
 }
 
@@ -270,7 +270,7 @@ a.pure-button-primary {
     left: 0; /* "#menu width" */
     background: rgba(45,62,80);
     background: rgba(45,62,80,0.5);
-    /* font-size: 10px; /* change this value to increase/decrease button size */ 
+    /* font-size: 10px; /* change this value to increase/decrease button size */
     z-index: 1000;
     padding: 0.5em;
     font-size: 1.5em;
@@ -293,6 +293,32 @@ a.pure-button-primary {
   width: 100%;
 }
 
+#speakers h2 {
+  margin: 0;
+}
+
+#speakers ul {
+  padding-left: 0;
+  padding-top: 0;
+}
+
+.profile img {
+  width: 50%;
+  float: left;
+  max-height: 10em;
+}
+
+.profile .links {
+  width: 50%;
+  display: block;
+  float: left;
+  height: 100%;
+  text-align: center;
+}
+
+.profile .links .fa {
+  font-size: 4.7em;
+}
 
 /* -------------------- */
 
