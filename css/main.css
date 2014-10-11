@@ -232,7 +232,6 @@ a.pure-button-primary {
   font-family: 'sand';
   text-transform: uppercase;
   text-shadow: 2px 2px 5px rgba(90, 90, 90, 0.5);
-  margin-top: 0;
   font-size: 2em;
 }
 
@@ -298,32 +297,32 @@ a.pure-button-primary {
   width: 100%;
 }
 
-#speakers h2 {
-  margin: 0;
-}
-
 #speakers ul {
   padding-left: 0;
   padding-top: 0;
 }
 
-.profile img {
-  width: 50%;
-  float: left;
-  max-height: 10em;
+.profile p {
+  padding: 0 1em;
 }
 
-.profile .links {
-  width: 50%;
-  display: block;
-  float: left;
-  height: 100%;
-  text-align: center;
-}
-
-.profile .links .fa {
-  font-size: 4.7em;
-}
+/* .profile img { */
+/*   width: 50%; */
+/*   float: left; */
+/*   max-height: 10em; */
+/* } */
+/*  */
+/* .profile .links { */
+/*   width: 50%; */
+/*   display: block; */
+/*   float: left; */
+/*   height: 100%; */
+/*   text-align: center; */
+/* } */
+/*  */
+/* .profile .links .fa { */
+/*   font-size: 4.7em; */
+/* } */
 
 /* -------------------- */
 
@@ -334,6 +333,10 @@ a.pure-button-primary {
 }
 
 @media (min-width: 48em) {
+  .content .section-header {
+    margin-top: 0;
+  }
+
     .menu-link {
       display: none;
     }
