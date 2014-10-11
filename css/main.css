@@ -232,6 +232,14 @@ a.pure-button-primary {
   background: #d0d2c4;
 }
 
+.content .section-header {
+  font-family: 'sand';
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px rgba(90, 90, 90, 0.5);
+  margin-top: 0;
+  font-size: 2em;
+}
+
 .content > .pure-g {
   border-bottom: 1px dashed #5d6357;
 }
