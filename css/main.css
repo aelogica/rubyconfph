@@ -306,23 +306,9 @@ a.pure-button-primary {
   padding: 0 1em;
 }
 
-/* .profile img { */
-/*   width: 50%; */
-/*   float: left; */
-/*   max-height: 10em; */
-/* } */
-/*  */
-/* .profile .links { */
-/*   width: 50%; */
-/*   display: block; */
-/*   float: left; */
-/*   height: 100%; */
-/*   text-align: center; */
-/* } */
-/*  */
-/* .profile .links .fa { */
-/*   font-size: 4.7em; */
-/* } */
+.links {
+  text-shadow: 2px 2px 5px rgba(90, 90, 90, 0.3);
+}
 
 /* -------------------- */
 
