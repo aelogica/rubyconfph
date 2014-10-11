@@ -225,11 +225,7 @@ a.pure-button-primary {
     width: 100%;
     min-height: 12%;
     z-index: 2;
-    background: #d0d2c4;
-}
-
-.content {
-  background: #d0d2c4;
+    background-image: url('../images/sandpaper.png');
 }
 
 .content .section-header {
@@ -241,7 +237,8 @@ a.pure-button-primary {
 }
 
 .content > .pure-g {
-  border-bottom: 1px dashed #5d6357;
+  border-bottom: 1px dotted #5d6357;
+  box-shadow: 0 10px 6px -6px rgba(90,90,90,0.5);
 }
 
 .content .l-box-lrg {
