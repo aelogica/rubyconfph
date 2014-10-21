@@ -302,8 +302,15 @@ a.pure-button-primary {
   padding-top: 0;
 }
 
-.profile p {
+.profile p, .profile h3 {
   padding: 0 1em;
+}
+
+.profile h3 {
+  font-weight: bold;
+  font-family: 'sand';
+  text-transform: uppercase;
+  font-size: 1em;
 }
 
 .links {
