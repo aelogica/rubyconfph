@@ -1,0 +1,37 @@
+.header
+  %a#menuLink.menu-link.active{:href => "#menu"}
+    / Hamburger icon
+    %i.fa.fa-bars
+  .home-menu.pure-menu.pure-menu-open.pure-menu-horizontal.pure-menu-fixed
+    %ul
+      %li
+        %a{:href => "#"}
+          %i.fa.fa-home
+          Home
+      %li
+        %a{:href => "#location"}
+          %i.fa.fa-map-marker
+          Location
+      %li
+        %a{:href => "#speakers"}
+          %i.fa.fa-group
+          Speakers
+      %li
+        %a.disabled
+          %i.fa.fa-table
+          Program
+      %li
+        %a.disabled
+          %i.fa.fa-star
+          Sponsors
+      %li
+        %a{:href => "#about"}
+          %i.fa.fa-info
+          About
+      %li
+        %a{:href => "http://rubyconf.ph/2014"}
+          %i.fa.fa-star
+          2014
+  %span#twitter-link
+    %a{:href => "https://twitter.com/rubyconfph"}
+      %i.fa.fa-twitter.fa-3x

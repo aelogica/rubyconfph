@@ -1,0 +1,110 @@
+!!!
+%html{lang: "en"}
+  {% include head.html %}
+
+  %body
+    {% include nav.html %}
+    {% include splash.html %}
+    .content-wrapper
+      {% include email_form.html %}
+      {% include location.html %}
+      #speakers.content
+        .pure-g
+          %h2.is-center.section-header.pure-u-1 Speakers
+          .l-box-lrg.pure-u-1
+            %ul.pure-g
+              {% for speaker in site.speakers %}
+              %li.l-box-lrg.pure-u-1.pure-u-md-1.pure-u-lg-1-2
+                .pure-g.profile
+                  %p.pure-u-1.pure-u-md-1-2.pure-u-lg-2-4.is-center
+                    %img.pure-img-responsive{alt: "{{ speaker.full_name }}", src: "images/{{ speaker.image_filename }}"}/
+                    %span.links.is-center.pure-u-1
+                      %a.twitter{href: "https://twitter.com/{{ speaker.twitter }}", target: "_blank"}
+                        %i.fa.fa-twitter.fa-2x
+                      %a.github{href: "https://github.com/{{ speaker.github}}", target: "_blank"}
+                        %i.fa.fa-github.fa-2x
+                  .pure-u-1.pure-u-md-1-2.pure-u-lg-2-4
+                    %h3 {{ speaker.full_name }}
+                    %p
+                      {{ speaker.description }}
+              {% endfor %}
+              %li.l-box-lrg.pure-u-1.pure-u-md-1.pure-u-lg-1-2
+                .pure-g.profile
+                  %p.pure-u-1.pure-u-md-1-2.pure-u-lg-2-4.is-center
+                    %img.pure-img-responsive{alt: "This could be you!", src: "images/placeholder-speaker.png"}/
+                  %p.pure-u-1.pure-u-md-1-2.pure-u-lg-2-4
+                    This could be you! Call for proposals is open until December 4, 2014.
+                    %a{href: "https://rubyconfph.wufoo.eu/forms/rubyconf-philippines-2015-call-for-proposals/", target: "_blank"}
+                      Click here to submit a proposal
+      #about.content
+        .pure-g
+          %h2.is-center.section-header.pure-u-1 About
+          .l-box-lrg.pure-u-1
+            %h2.is-center.content-head-ribbon Code of Conduct
+            %p
+              Our conference is dedicated to providing a harassment-free conference experience for everyone,
+              regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion.
+              We do not tolerate harassment of conference participants in any form.
+              Sexual language and imagery is not appropriate for any conference venue,
+              including talks, workshops, parties, Twitter and other online media.
+              Conference participants violating these rules may be sanctioned or expelled from the conference
+              without a refund at the discretion of the conference organisers.
+          .l-box-lrg.pure-u-1
+            %h2.is-center.content-head-ribbon Meet the Team
+            %ul.team-members.pure-g
+              {% for team_member in site.meet_the_team.rubyists %}
+              %li.l-box-lrg.pure-u-1-2.pure-u-md-1-2.pure-u-lg-1-5
+                %img.pure-img-responsive{src: "images/team/{{ team_member.image }}"}/
+                %span.team-member {{ team_member.name }}
+                %span.links.is-center.pure-u-1
+                  %a.twitter{href: "https://twitter.com/{{ team_member.twitter }}", target: "_blank"}
+                    %i.fa.fa-twitter.fa-2x
+                  %a.github{href: "https://github.com/{{ team_member.github }}", target: "_blank"}
+                    %i.fa.fa-github.fa-2x
+              {% endfor %}
+
+            %ul.team-members.pure-g
+              {% for team_member in site.meet_the_team.staff %}
+              %li.l-box-lrg.pure-u-1-2.pure-u-md-1-2.pure-u-lg-1-5
+                %img.pure-img-responsive{src: "images/team/{{ team_member.image }}"}/
+                %span.team-member {{ team_member.name }}
+              {% endfor %}
+            -#   %li.l-box-lrg.pure-u-1-2.pure-u-md-1-2.pure-u-lg-1-5
+            -#     %img.pure-img-responsive{src: "images/team/ramon.jpeg"}/
+            -#     %span.team-member Ramon Tayag
+            -#     %span.links.is-center.pure-u-1
+            -#       %a.twitter{href: "https://twitter.com/rtayag", target: "_blank"}
+            -#         %i.fa.fa-twitter.fa-2x
+            -#       %a.github{href: "https://github.com/ramontayag", target: "_blank"}
+            -#         %i.fa.fa-github.fa-2x
+            -#   %li.l-box-lrg.pure-u-1-2.pure-u-md-1-2.pure-u-lg-1-5
+            -#     %img.pure-img-responsive{src: "images/team/eums.jpg"}/
+            -#     %span.team-member Eumir Gaspar
+            -#     %span.links.is-center.pure-u-1
+            -#       %a.twitter{href: "https://twitter.com/benjobatumbakal", target: "_blank"}
+            -#         %i.fa.fa-twitter.fa-2x
+            -#       %a.github{href: "https://github.com/corroded", target: "_blank"}
+            -#         %i.fa.fa-github.fa-2x
+            -#   %li.l-box-lrg.pure-u-1-2.pure-u-md-1-2.pure-u-lg-1-5
+            -#     %img.pure-img-responsive{src: "images/team/krist.png"}/
+            -#     %span.team-member Chris Menina
+            -#     %span.links.is-center.pure-u-1
+            -#       %a.github{href: "https://github.com/kristm", target: "_blank"}
+            -#         %i.fa.fa-github.fa-2x
+            -# %ul.team-members.pure-g
+            -#   %li.l-box-lrg.pure-u-1-2.pure-u-md-1-2.pure-u-lg-1-5
+            -#     %img.pure-img-responsive{src: "images/team/sam.jpg"}/
+            -#     %span.team-member Sam Rigor
+            -#   %li.l-box-lrg.pure-u-1-2.pure-u-md-1-2.pure-u-lg-1-5
+            -#     %img.pure-img-responsive{src: "images/team/joy.jpg"}/
+            -#     %span.team-member Joy Garcia
+            -#   %li.l-box-lrg.pure-u-1-2.pure-u-md-1-2.pure-u-lg-1-5
+            -#     %img.pure-img-responsive{src: "images/team/cecille.jpg"}/
+            -#     %span.team-member Cecille Alba
+            -#   %li.l-box-lrg.pure-u-1-2.pure-u-md-1-2.pure-u-lg-1-5
+            -#     %img.pure-img-responsive{src: "images/team/quincy.jpg"}/
+            -#     %span.team-member Quincy Gelacio
+            -#   %li.l-box-lrg.pure-u-1-2.pure-u-md-1-2.pure-u-lg-1-5
+            -#     %img.pure-img-responsive{src: "images/team/julius.jpg"}/
+            -#     %span.team-member Julius Franco
+

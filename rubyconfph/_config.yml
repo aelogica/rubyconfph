@@ -1,0 +1,45 @@
+# Site settings
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://rubyconf.ph" # the base hostname & protocol for your site
+meet_the_team:
+  rubyists:
+    - name: 'Christopher Rigor'
+      twitter: crigor
+      github: crigor
+      image: christopher.jpg
+    - name: 'Ramon Tayag'
+      twitter: rtayag
+      github: ramontayag
+      image: ramon.jpeg
+    - name: 'Eumir Gaspar'
+      twitter: benjobatumbakal
+      github: corroded
+      image: eums.jpg
+    - name: 'Chris Menina'
+      github: kristm
+      image: krist.png
+  staff:
+    - name: 'Sam Rigor'
+      image: sam.jpg
+    - name: 'Joy Garcia'
+      image: joy.jpg
+    - name: 'Cecille Alba'
+      image: cecille.jpg
+    - name: 'Quincy Gelacio'
+      image: quincy.jpg
+    - name: 'Julius Franco'
+      image: julius.jpg
+speakers:
+  - full_name: 'Richard Schneeman'
+    twitter: schneems
+    github: schneems
+    image_filename: richard_schneeman.png
+    description: >
+      Richard writes Ruby at Heroku and maintains
+      <a href: "http\:/\/codetriage.com", target: "_blank"> codetriage.com </a>
+      When he isn't obsessively compulsively playing Starcraft 2, he writes such gems as Wicked,
+      Sextant, and oPRO. Richard is a member of the Rails issue team, and is married to Ruby, literally.
+
+
+# Build settings
+markdown: kramdown
