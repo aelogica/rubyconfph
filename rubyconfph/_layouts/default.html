@@ -75,12 +75,16 @@
                 <img class='pure-img-responsive' src='images/team/{{ team_member.image }}'>
                 <span class='team-member'>{{ team_member.name }}</span>
                 <span class='links is-center pure-u-1'>
+                  {% if team_member.twitter %}
                   <a class='twitter' href='https://twitter.com/{{ team_member.twitter }}' target='_blank'>
                     <i class='fa fa-twitter fa-2x'></i>
                   </a>
+                  {% endif %}
+                  {% if team_member.github %}
                   <a class='github' href='https://github.com/{{ team_member.github }}' target='_blank'>
                     <i class='fa fa-github fa-2x'></i>
                   </a>
+                  {% endif %}
                 </span>
               </li>
               {% endfor %}
