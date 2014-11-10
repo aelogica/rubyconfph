@@ -45,17 +45,3 @@ end
 
 desc 'Parse all haml items'
 task haml: ['haml:layouts', 'haml:includes', 'haml:indexes']
-
-desc 'Parse sass files'
-task :sass do
-  require 'sass'
-
-  css = File.open('css/_sass/main.sass', 'r') { |f| Sass::Engine.new(f.read).render }
-  File.open('css/main.css', 'w') { |f| f.write css }
-
-  puts 'Parsed main.sass'
-end
-
-desc 'Build all haml and sass files for deployment'
-task build: [:haml, :sass]
-
