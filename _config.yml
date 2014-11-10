@@ -7,8 +7,6 @@ meet_the_team:
       twitter: crigor
       github: crigor
       image: christopher.jpg
-    - name: 'Sam Rigor'
-      image: sam.jpg
     - name: 'Ramon Tayag'
       twitter: rtayag
       github: ramontayag
@@ -21,6 +19,8 @@ meet_the_team:
       github: kristm
       image: krist.png
   staff:
+    - name: 'Sam Rigor'
+      image: sam.jpg
     - name: 'Joy Garcia'
       image: joy.jpg
     - name: 'Cecille Alba'
