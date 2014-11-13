@@ -1,7 +1,7 @@
 # Rake tasks to parse haml layouts, includes and index files and sass files for jekyll
 # Assumes that the haml files are in (_layouts|_includes)/_haml
 # and the sass files are in css/_sass
-
+#
 namespace :haml do
   require 'haml'
 
@@ -45,3 +45,36 @@ end
 
 desc 'Parse all haml items'
 task haml: ['haml:layouts', 'haml:includes', 'haml:indexes']
+
+desc 'Compile files, commit and deploy to gh-pages'
+task :deploy do
+  # precompile for production
+  Rake::Task["haml"].execute
+
+  # run jekyll command to generate site folder
+  `jekyll build`
+
+  # copy the _site folder in a tmp folder outside the repo
+  `mkdir ~/jekylltmp`
+  `cp -r _site/* ~/jekylltmp/`
+
+  # add the image assets (for some reason jekyll-assets doesn't include this automatically)
+  # `cp -r _assets/images/ ~/jekylltmp/assets/`
+
+  # switch to gh-pages branch
+  `git checkout gh-pages`
+
+  # copy contents of _site to gh-pages root (with overrides)
+  `cp -rf ~/jekylltmp/* .`
+
+  # add nojekyll file
+  # `touch .nojekyll`
+
+  # git add + commit
+  system "git add ."
+  system "git commit"
+
+  # delete the tmp folder from jekyll
+  `rm -r ~/jekylltmp`
+end
+
