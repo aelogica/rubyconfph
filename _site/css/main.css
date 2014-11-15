@@ -28,6 +28,12 @@ a {
   color: #3c72b7;
   text-decoration: none; }
 
+table {
+  width: 80%; }
+
+tr {
+  border-bottom: 1px dotted #5d6357; }
+
 #twitter-link {
   display: block;
   position: relative;
@@ -169,6 +175,12 @@ a {
 
 .links {
   text-shadow: 2px 2px 5px rgba(90, 90, 90, 0.3); }
+
+.hotel-rates {
+  clear: both;
+  border-top: 1px dotted #cccccc;
+  margin: 1em 0;
+  width: 100%; }
 
 .pure-img-responsive {
   max-width: 100%;
