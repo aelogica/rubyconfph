@@ -181,11 +181,11 @@ a.pure-button-primary {
 
 
 .splash-container {
-    background-image: url('../images/background.jpg');
+    background-image: url('../images/phuket.jpg');
     background-size: cover;
     z-index: 1;
     overflow: hidden;
-    height: 1000px;
+    height: 700px;
 }
 
 .splash {
