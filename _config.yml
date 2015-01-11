@@ -30,6 +30,26 @@ meet_the_team:
     - name: 'Julius Franco'
       image: julius.jpg
 speakers:
+  - full_name: 'Koichi Sasada'
+    twitter: _ko1
+    github: ko1
+    image_filename: koichi_sasada.jpg
+    description: >
+      Koichi Sasada is a programmer, mainly developing Ruby interpreter (CRuby/MRI).
+      He received Ph.D (Information Science and Technology) from the University of Tokyo, 2007.
+      As first job, he was a faculty of University of Tokyo (Assistant associate 2006-2008, Assistant professor 2008-2012). 
+      After the 13 years life in university, now, he is a member of Matz's team in Heroku, Inc. 
+      He is also a director of Ruby Association.
+  - full_name: 'Philip Arndt'
+    twitter: parndt
+    github: parndt
+    image_filename: philip_arndt.jpeg
+    description: >
+      Kiwi programmer and Director of Ruby at Manuka Coalition, Philip is deeply interested in open source,
+      travelling with his wife, sunshine and great food, making the Philippines a perfect fit -
+      and not just because it starts with 'Philip'.
+
+      Current President of Ruby New Zealand.
   - full_name: 'Richard Schneeman'
     twitter: schneems
     github: schneems
