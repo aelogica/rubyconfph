@@ -30,6 +30,33 @@ meet_the_team:
     - name: 'Julius Franco'
       image: julius.jpg
 speakers:
+  - full_name: Assaf Gelber
+    twitter: assafgelber
+    image_filename: assaf_gelber.png
+    description: >
+      After serving in unit 8200, the top tech unit in the IDF, Assaf now works as an engineer at the eBay Israel Innovation Center,
+      a small team working out of Tel Aviv trying to build the next big hit. Software Developer by day and poker player by night, Assaf often likes to mix between the two.
+  - full_name: Danish Khan
+    twitter: danishkhan
+    github: danishkhan
+    image_filename: danish_khan.jpg
+    description: >
+      Danish finds teaching to be enjoyable and helps out at some of the local user groups. He currently resides in the beautiful city of San Francisco. He works at GitHub a company that helps developers work better together than alone. We also sell stickers & t-shirts.
+  - full_name: Hiro Asari
+    twitter: hiro_asari
+    image_filename: hiro_asari.jpeg
+    description: >
+      Hiro Asari is a software developer at Travis CI GmbH and strong believer in open source. When he is not coding, he is found spending time with his family or appreciating fine beers of the world.
+  - full_name: John Crepezzi
+    twitter: seejohnrun
+    github: seejohnrun
+    image_filename: john_crepezzi.jpeg
+    description: >
+      John is a developer at Square in New York.  He's the author of several popular Ruby gems including ice_cube, easy_translate, and google_plus.  He is also the creator of the open source pastebin software hastebin.  He enjoys speaking and blogging about code, learning new things, and writing great software.
+  - full_name: Joshua Lat
+    image_filename: joshua_lat.png
+    description: >
+      Joshua Lat serves as the Scrum Master, Full-Stack Developer, and Infrastructure Engineer of Deal Grocer, Taste Central, and BeautyMNL. In the past, he's known for winning the Kaspersky International Cup 2012 which made him interested in IT Security and E-commerce. When not playing NBA 2K15, he builds tools for himself to make his everyday life easier.
   - full_name: 'Koichi Sasada'
     twitter: _ko1
     github: ko1
@@ -40,6 +67,12 @@ speakers:
       As first job, he was a faculty of University of Tokyo (Assistant associate 2006-2008, Assistant professor 2008-2012). 
       After the 13 years life in university, now, he is a member of Matz's team in Heroku, Inc. 
       He is also a director of Ruby Association.
+  - full_name: PJ Hagerty
+    twitter: aspleenic
+    github: aspleenic
+    image_filename: pj_hagerty.png
+    description: >
+      A Ruby developer for the last several years, PJ currently works at Engine Yard as a Community Engineer. Additionally, he organizes the Western New York Ruby Brigade. Traveling to conferences and Ruby meet ups around the US and Canada, PJ likes to spread the word on the importance of community and coding, stressing the importance of outreach and focusing on the human side of being a coder.
   - full_name: 'Philip Arndt'
     twitter: parndt
     github: parndt
@@ -59,6 +92,24 @@ speakers:
       <a href: "http\:/\/codetriage.com", target: "_blank"> codetriage.com </a>
       When he isn't obsessively compulsively playing Starcraft 2, he writes such gems as Wicked,
       Sextant, and oPRO. Richard is a member of the Rails issue team, and is married to Ruby, literally.
+  - full_name: Terence Lee
+    twitter: hone02
+    github: hone
+    image_filename: terence_lee.jpg
+    description: >
+      Terence leads Heroku's Ruby Task Force curating the Ruby experience on the platform. He also works some OSS projects such as Ruby (the language), Bundler, as well as helping with the Rails Girls movement. When he's not going to an awesome Heroku or Ruby event, he lives in Austin, TX, the taco capital of America.  
+      Terence loves Friday hugs, EVERY DAY OF THE WEEK! Give him a big one when you see him! In addition to hugs, he believes in getting people together for #rubykaraoke.
+  - full_name: Yuki Nishijima
+    twitter: yuki24
+    github: yuki24
+    image_filename: yuki_nishijima.jpeg
+    description: >
+      Yuki is a Japanese Rubyist who raised in Tokyo and used to live in Manila where he spent a year on learning English. He is a maintainer of kaminari, the creator of did_you_mean, and a frequent contributor to many open source projects including Rails. He lives in New York, NY and works at Pivotal Labs NYC office to transform how the world builds software.
+  - full_name: Zachary Scott
+    twitter: _zzak
+    image_filename: zachary_scott.jpg
+    description: >
+      {Ruby, Rails, Sinatra} Committer living in San Francisco from Vermont.
 
 
 # Build settings
