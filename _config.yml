@@ -104,7 +104,7 @@ speakers:
     github: yuki24
     image_filename: yuki_nishijima.jpeg
     description: >
-      Yuki is a Japanese Rubyist who raised in Tokyo and used to live in Manila where he spent a year on learning English. He is a maintainer of kaminari, the creator of did_you_mean, and a frequent contributor to many open source projects including Rails. He lives in New York, NY and works at Pivotal Labs NYC office to transform how the world builds software.
+      Yuki is a Japanese Rubyist who was raised in Tokyo and used to live in Manila where he spent a year learning English. He is a maintainer of kaminari, the creator of did_you_mean, and a frequent contributor to many open source projects including Rails. He lives in New York, NY and works at Pivotal Labs NYC office to transform how the world builds software.
   - full_name: Zachary Scott
     twitter: _zzak
     image_filename: zachary_scott.jpg
