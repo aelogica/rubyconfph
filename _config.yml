@@ -32,10 +32,10 @@ meet_the_team:
 speakers:
   - full_name: Assaf Gelber
     twitter: assafgelber
+    github: agelber
     image_filename: assaf_gelber.png
     description: >
-      After serving in unit 8200, the top tech unit in the IDF, Assaf now works as an engineer at the eBay Israel Innovation Center,
-      a small team working out of Tel Aviv trying to build the next big hit. Software Developer by day and poker player by night, Assaf often likes to mix between the two.
+      Assaf is a developer at the eBay Israel Innovation Center, a small team focused on creating the best products possible all the while working on various gems and side projects. As an amateur poker player, Assaf often likes to mix between the above.
   - full_name: Danish Khan
     twitter: danishkhan
     github: danishkhan
