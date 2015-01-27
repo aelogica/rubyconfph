@@ -114,10 +114,10 @@ tr {
 
 .ribbon {
   background: #2d3e50;
-  color: #aaaaaa; }
+  color: #aaa; }
 
 .footer {
-  background: #111111; }
+  background: #111; }
 
 .menu-link {
   position: fixed;
@@ -132,7 +132,7 @@ tr {
   z-index: 1000;
   padding: 0.5em;
   font-size: 1.5em;
-  color: white;
+  color: #fff;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   -ms-transition: all 0.2s ease-out;
@@ -158,7 +158,7 @@ tr {
   text-align: center; }
   .team-members img, .sponsors img {
     padding: 0.3em;
-    background: white;
+    background: #fff;
     box-shadow: 0 3px 10px #5d6357; }
 
 .sponsors.bronze li {
@@ -181,13 +181,13 @@ tr {
 
 .hotel-rates {
   clear: both;
-  border-top: 1px dotted #cccccc;
+  border-top: 1px dotted #ccc;
   margin: 1em 0;
   width: 100%; }
 
 .pure-img-responsive {
   max-width: 100%;
-  background: white;
+  background: #fff;
   padding: 0.3em;
   box-shadow: 0 3px 10px #5d6357; }
 
@@ -206,7 +206,7 @@ tr {
   font-weight: bold;
   font-size: 100%; }
 .pure-form input[type] {
-  border: 2px solid #dddddd;
+  border: 2px solid #ddd;
   box-shadow: none;
   font-size: 100%;
   width: 100%;
@@ -251,13 +251,13 @@ a.pure-button-primary {
 .home-menu a {
   color: white; }
   .home-menu a.disabled {
-    color: #cccccc; }
+    color: #ccc; }
     .home-menu a.disabled:hover {
-      color: #cccccc; }
+      color: #ccc; }
 .home-menu li a:hover, .home-menu li a:focus {
   background: none;
   /* border: none; */
-  color: #aecfe5; }
+  color: #AECFE5; }
 .home-menu.active {
   margin-top: 0; }
   .home-menu.active ul {

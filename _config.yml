@@ -54,6 +54,8 @@ speakers:
     description: >
       John is a developer at Square in New York.  He's the author of several popular Ruby gems including ice_cube, easy_translate, and google_plus.  He is also the creator of the open source pastebin software hastebin.  He enjoys speaking and blogging about code, learning new things, and writing great software.
   - full_name: Joshua Lat
+    twitter: mrjoshualat
+    github: joshualat
     image_filename: joshua_lat.png
     description: >
       Joshua Lat serves as the Scrum Master, Full-Stack Developer, and Infrastructure Engineer of Deal Grocer, Taste Central, and BeautyMNL. In the past, he's known for winning the Kaspersky International Cup 2012 which made him interested in IT Security and E-commerce. When not playing NBA 2K15, he builds tools for himself to make his everyday life easier.
@@ -83,6 +85,12 @@ speakers:
       and not just because it starts with 'Philip'.
 
       Current President of Ruby New Zealand.
+  - full_name: Radamanthus Batnag
+    twitter: radamanthus
+    github: radamanthus
+    image_filename: placeholder-speaker.png
+    description: >
+      Rad deals with crazy Passengers, wild Unicorns, and zombie Sidekiqs in his day job as a member of Engine Yard’s Support team.
   - full_name: 'Richard Schneeman'
     twitter: schneems
     github: schneems
@@ -92,6 +100,10 @@ speakers:
       <a href: "http\:/\/codetriage.com", target: "_blank"> codetriage.com </a>
       When he isn't obsessively compulsively playing Starcraft 2, he writes such gems as Wicked,
       Sextant, and oPRO. Richard is a member of the Rails issue team, and is married to Ruby, literally.
+  - full_name: Steven Talcott Smith
+    image_filename: placeholder-speaker.png
+    description: >
+      Steven is the founder of AELOGICA.  He is the author of Level UP - How to Become a Great Professional Software Developer. Steven fell in love with Ruby in 2006 and has enjoyed a 25 year career in IT.  He is the developer of Express Templates and lives with his family in Manila, Philippines and Lake Tahoe in the US.
   - full_name: Terence Lee
     twitter: hone02
     github: hone
@@ -99,12 +111,25 @@ speakers:
     description: >
       Terence leads Heroku's Ruby Task Force curating the Ruby experience on the platform. He also works some OSS projects such as Ruby (the language), Bundler, as well as helping with the Rails Girls movement. When he's not going to an awesome Heroku or Ruby event, he lives in Austin, TX, the taco capital of America.  
       Terence loves Friday hugs, EVERY DAY OF THE WEEK! Give him a big one when you see him! In addition to hugs, he believes in getting people together for #rubykaraoke.
+  - full_name: Vipul Amler
+    twitter: vipulnsward
+    github: vipulnsward
+    image_filename: vipul_amler.jpeg
+    description: >
+      Vipul works as a Software Consultant at BigBinary LLC. He is an avid Rails and Ruby Projects Contributor. His spare time is spent exploring and contributing to many Open Source ruby projects, when not dabbling with Clojure or React JS. 
+      Vipul loves Ruby's vibrant community and helps in building PuneRb, is the founder of and runs RubyIndia Community Newsletter and RubyIndia Podcast, and is an organiser for Deccan Ruby Conference.
   - full_name: Yuki Nishijima
     twitter: yuki24
     github: yuki24
     image_filename: yuki_nishijima.jpeg
     description: >
       Yuki is a Japanese Rubyist who was raised in Tokyo and used to live in Manila where he spent a year learning English. He is a maintainer of kaminari, the creator of did_you_mean, and a frequent contributor to many open source projects including Rails. He lives in New York, NY and works at Pivotal Labs NYC office to transform how the world builds software.
+  - full_name: Yuki Sasada
+    twitter: yotii23
+    image_filename: yuki_sasada.jpg
+    description: >
+      Rails Web developer and the organizer of RailsGirls Tokyo. One of the authors of "Heroku for professionals (Japanese book  http://www.amazon.co.jp/dp/4048915134)" and a reviewer of the translation of "Ruby under a Microscope" Japanese version. 
+      She is working in Manyo (Everyleaf) corporation. 
   - full_name: Zachary Scott
     twitter: _zzak
     image_filename: zachary_scott.jpg
