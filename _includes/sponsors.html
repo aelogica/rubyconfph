@@ -1,0 +1,27 @@
+<div class='content' id='sponsors'>
+  <div class='pure-g'>
+    <h2 class='is-center section-header pure-u-1'>Sponsors</h2>
+    <div class='l-box-lrg pure-u-1'>
+      <h2 class='is-center content-head-ribbon'>Bronze</h2>
+      <ul class='sponsors bronze pure-g'>
+        {% for sponsor in site.sponsors.bronze %}
+        <li class='l-box-lrg pure-u-1-2 pure-u-md-1-2 pure-u-lg-1-5'>
+          <img class='pure-img-responsive' src='images/sponsors/bronze/{{ sponsor.image }}'>
+        </li>
+        {% endfor %}
+      </ul>
+      {% if site.sponsors.tickets %}
+      <ul class='sponsors pure-g'>
+        {% for sponsor in site.sponsors.tickets %}
+        {% if sponsor.image %}
+        <li class='l-box-lrg pure-u-1-2 pure-u-md-1-2 pure-u-lg-1-5'>
+          <img class='pure-img-responsive' src='images/sponsors/tickets/{{ sponsor.image }}'>
+          <span class='team-member'>{{ team_member.name }}</span>
+        </li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+  </div>
+</div>

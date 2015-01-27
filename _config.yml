@@ -110,6 +110,9 @@ speakers:
     image_filename: zachary_scott.jpg
     description: >
       {Ruby, Rails, Sinatra} Committer living in San Francisco from Vermont.
+sponsors:
+  bronze:
+    - image: gaiax_logo.gif
 
 
 # Build settings

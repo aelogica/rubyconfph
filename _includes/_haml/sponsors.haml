@@ -1,0 +1,22 @@
+#sponsors.content
+  .pure-g
+    %h2.is-center.section-header.pure-u-1 Sponsors
+    .l-box-lrg.pure-u-1
+      %h2.is-center.content-head-ribbon Bronze
+      %ul.sponsors.bronze.pure-g
+        {% for sponsor in site.sponsors.bronze %}
+        %li.l-box-lrg.pure-u-1-2.pure-u-md-1-2.pure-u-lg-1-5
+          %img.pure-img-responsive{src: "images/sponsors/bronze/{{ sponsor.image }}"}/
+        {% endfor %}
+
+      {% if site.sponsors.tickets %}
+      %ul.sponsors.pure-g
+        {% for sponsor in site.sponsors.tickets %}
+        {% if sponsor.image %}
+        %li.l-box-lrg.pure-u-1-2.pure-u-md-1-2.pure-u-lg-1-5
+          %img.pure-img-responsive{src: "images/sponsors/tickets/{{ sponsor.image }}"}/
+          %span.team-member {{ team_member.name }}
+        {% endif %}
+        {% endfor %}
+      {% endif %}
+
