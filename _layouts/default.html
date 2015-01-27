@@ -7,86 +7,9 @@
     <div class='content-wrapper'>
       {% include email_form.html %}
       {% include location.html %}
-      <div class='content' id='speakers'>
-        <div class='pure-g'>
-          <h2 class='is-center section-header pure-u-1'>Speakers</h2>
-          <div class='l-box-lrg pure-u-1'>
-            <ul class='pure-g'>
-              {% for speaker in site.speakers %}
-              <li class='l-box-lrg pure-u-1 pure-u-md-1 pure-u-lg-1-2'>
-                <div class='pure-g profile'>
-                  <p class='pure-u-1 pure-u-md-1-2 pure-u-lg-2-4 is-center'>
-                    <img alt='{{ speaker.full_name }}' class='pure-img-responsive' src='images/speakers/{{ speaker.image_filename }}'>
-                    <span class='links is-center pure-u-1'>
-                      <a class='twitter' href='https://twitter.com/{{ speaker.twitter }}' target='_blank'>
-                        <i class='fa fa-twitter fa-2x'></i>
-                      </a>
-                      <a class='github' href='https://github.com/{{ speaker.github}}' target='_blank'>
-                        <i class='fa fa-github fa-2x'></i>
-                      </a>
-                    </span>
-                  </p>
-                  <div class='pure-u-1 pure-u-md-1-2 pure-u-lg-2-4'>
-                    <h3>{{ speaker.full_name }}</h3>
-                    <p>
-                      {{ speaker.description }}
-                    </p>
-                  </div>
-                </div>
-              </li>
-              {% endfor %}
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class='content' id='about'>
-        <div class='pure-g'>
-          <h2 class='is-center section-header pure-u-1'>About</h2>
-          <div class='l-box-lrg pure-u-1'>
-            <h2 class='is-center content-head-ribbon'>Code of Conduct</h2>
-            <p>
-              Our conference is dedicated to providing a harassment-free conference experience for everyone,
-              regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion.
-              We do not tolerate harassment of conference participants in any form.
-              Sexual language and imagery is not appropriate for any conference venue,
-              including talks, workshops, parties, Twitter and other online media.
-              Conference participants violating these rules may be sanctioned or expelled from the conference
-              without a refund at the discretion of the conference organisers.
-            </p>
-          </div>
-          <div class='l-box-lrg pure-u-1'>
-            <h2 class='is-center content-head-ribbon'>Meet the Team</h2>
-            <ul class='team-members pure-g'>
-              {% for team_member in site.meet_the_team.rubyists %}
-              <li class='l-box-lrg pure-u-1-2 pure-u-md-1-2 pure-u-lg-1-5'>
-                <img class='pure-img-responsive' src='images/team/{{ team_member.image }}'>
-                <span class='team-member'>{{ team_member.name }}</span>
-                <span class='links is-center pure-u-1'>
-                  {% if team_member.twitter %}
-                  <a class='twitter' href='https://twitter.com/{{ team_member.twitter }}' target='_blank'>
-                    <i class='fa fa-twitter fa-2x'></i>
-                  </a>
-                  {% endif %}
-                  {% if team_member.github %}
-                  <a class='github' href='https://github.com/{{ team_member.github }}' target='_blank'>
-                    <i class='fa fa-github fa-2x'></i>
-                  </a>
-                  {% endif %}
-                </span>
-              </li>
-              {% endfor %}
-            </ul>
-            <ul class='team-members pure-g'>
-              {% for team_member in site.meet_the_team.staff %}
-              <li class='l-box-lrg pure-u-1-2 pure-u-md-1-2 pure-u-lg-1-5'>
-                <img class='pure-img-responsive' src='images/team/{{ team_member.image }}'>
-                <span class='team-member'>{{ team_member.name }}</span>
-              </li>
-              {% endfor %}
-            </ul>
-          </div>
-        </div>
-      </div>
+      {% include speakers.html %}
+      {% include sponsors.html %}
+      {% include about.html %}
       {% include footer.html %}
     </div>
   </body>

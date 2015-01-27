@@ -1,0 +1,20 @@
+#speakers.content
+  .pure-g
+    %h2.is-center.section-header.pure-u-1 Speakers
+    .l-box-lrg.pure-u-1
+      %ul.pure-g
+        {% for speaker in site.speakers %}
+        %li.l-box-lrg.pure-u-1.pure-u-md-1.pure-u-lg-1-2
+          .pure-g.profile
+            %p.pure-u-1.pure-u-md-1-2.pure-u-lg-2-4.is-center
+              %img.pure-img-responsive{alt: "{{ speaker.full_name }}", src: "images/speakers/{{ speaker.image_filename }}"}/
+              %span.links.is-center.pure-u-1
+                %a.twitter{href: "https://twitter.com/{{ speaker.twitter }}", target: "_blank"}
+                  %i.fa.fa-twitter.fa-2x
+                %a.github{href: "https://github.com/{{ speaker.github}}", target: "_blank"}
+                  %i.fa.fa-github.fa-2x
+            .pure-u-1.pure-u-md-1-2.pure-u-lg-2-4
+              %h3 {{ speaker.full_name }}
+              %p
+                {{ speaker.description }}
+        {% endfor %}
