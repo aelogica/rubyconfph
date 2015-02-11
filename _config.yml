@@ -30,6 +30,12 @@ meet_the_team:
     - name: 'Julius Franco'
       image: julius.jpg
 speakers:
+  - full_name: Allan Espinosa
+    twitter: AllanEspinosa
+    github: aespinosa
+    image_filename: allan_espinosa.jpeg
+    description: >
+      Allan runs large scale web infrastructure at Rakuten's internal Platform as a Service Cloud platform. He contributes in various DevOps tooling around Chef particularly open source Chef cookbooks. He advocates introducing quality to infrastructure code by providing extensive unit and functional tests.
   - full_name: Assaf Gelber
     twitter: assafgelber
     github: agelber
@@ -47,12 +53,6 @@ speakers:
     image_filename: hiro_asari.jpeg
     description: >
       Hiro Asari is a software developer at Travis CI GmbH and strong believer in open source. When he is not coding, he is found spending time with his family or appreciating fine beers of the world.
-  - full_name: John Crepezzi
-    twitter: seejohnrun
-    github: seejohnrun
-    image_filename: john_crepezzi.jpeg
-    description: >
-      John is a developer at Square in New York.  He's the author of several popular Ruby gems including ice_cube, easy_translate, and google_plus.  He is also the creator of the open source pastebin software hastebin.  He enjoys speaking and blogging about code, learning new things, and writing great software.
   - full_name: Joshua Lat
     twitter: mrjoshualat
     github: joshualat
