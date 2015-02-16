@@ -2,6 +2,16 @@
   .pure-g
     %h2.is-center.section-header.pure-u-1 Sponsors
     .l-box-lrg.pure-u-1
+      %h2.is-center.content-head-ribbon Silver
+      %ul.sponsors.silver.pure-g
+        {% for sponsor in site.sponsors.silver %}
+        %li.l-box-lrg.pure-u-1-2.pure-u-md-1-2.pure-u-lg-2-5
+          %img.pure-img-responsive{src: "images/sponsors/silver/{{ sponsor.image }}"}/
+          .description
+            {{ sponsor.description }}
+        {% endfor %}
+
+    .l-box-lrg.pure-u-1
       %h2.is-center.content-head-ribbon Bronze
       %ul.sponsors.bronze.pure-g
         {% for sponsor in site.sponsors.bronze %}

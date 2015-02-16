@@ -66,8 +66,8 @@ speakers:
     description: >
       Koichi Sasada is a programmer, mainly developing Ruby interpreter (CRuby/MRI).
       He received Ph.D (Information Science and Technology) from the University of Tokyo, 2007.
-      As first job, he was a faculty of University of Tokyo (Assistant associate 2006-2008, Assistant professor 2008-2012). 
-      After the 13 years life in university, now, he is a member of Matz's team in Heroku, Inc. 
+      As first job, he was a faculty of University of Tokyo (Assistant associate 2006-2008, Assistant professor 2008-2012).
+      After the 13 years life in university, now, he is a member of Matz's team in Heroku, Inc.
       He is also a director of Ruby Association.
   - full_name: PJ Hagerty
     twitter: aspleenic
@@ -109,14 +109,14 @@ speakers:
     github: hone
     image_filename: terence_lee.jpg
     description: >
-      Terence leads Heroku's Ruby Task Force curating the Ruby experience on the platform. He also works some OSS projects such as Ruby (the language), Bundler, as well as helping with the Rails Girls movement. When he's not going to an awesome Heroku or Ruby event, he lives in Austin, TX, the taco capital of America.  
+      Terence leads Heroku's Ruby Task Force curating the Ruby experience on the platform. He also works some OSS projects such as Ruby (the language), Bundler, as well as helping with the Rails Girls movement. When he's not going to an awesome Heroku or Ruby event, he lives in Austin, TX, the taco capital of America.
       Terence loves Friday hugs, EVERY DAY OF THE WEEK! Give him a big one when you see him! In addition to hugs, he believes in getting people together for #rubykaraoke.
   - full_name: Vipul Amler
     twitter: vipulnsward
     github: vipulnsward
     image_filename: vipul_amler.jpeg
     description: >
-      Vipul works as a Software Consultant at BigBinary LLC. He is an avid Rails and Ruby Projects Contributor. His spare time is spent exploring and contributing to many Open Source ruby projects, when not dabbling with Clojure or React JS. 
+      Vipul works as a Software Consultant at BigBinary LLC. He is an avid Rails and Ruby Projects Contributor. His spare time is spent exploring and contributing to many Open Source ruby projects, when not dabbling with Clojure or React JS.
       Vipul loves Ruby's vibrant community and helps in building PuneRb, is the founder of and runs RubyIndia Community Newsletter and RubyIndia Podcast, and is an organiser for Deccan Ruby Conference.
   - full_name: Yuki Nishijima
     twitter: yuki24
@@ -128,14 +128,21 @@ speakers:
     twitter: yotii23
     image_filename: yuki_sasada.jpg
     description: >
-      Rails Web developer and the organizer of RailsGirls Tokyo. One of the authors of "Heroku for professionals (Japanese book  http://www.amazon.co.jp/dp/4048915134)" and a reviewer of the translation of "Ruby under a Microscope" Japanese version. 
-      She is working in Manyo (Everyleaf) corporation. 
+      Rails Web developer and the organizer of RailsGirls Tokyo. One of the authors of "Heroku for professionals (Japanese book  http://www.amazon.co.jp/dp/4048915134)" and a reviewer of the translation of "Ruby under a Microscope" Japanese version.
+      She is working in Manyo (Everyleaf) corporation.
   - full_name: Zachary Scott
     twitter: _zzak
     image_filename: zachary_scott.jpg
     description: >
       {Ruby, Rails, Sinatra} Committer living in San Francisco from Vermont.
 sponsors:
+  silver:
+    - image: launchpad_recruits.jpg
+      description: >
+        <p>We're are a team of Rails, media and mobile experts who are passionate about building a great product and learning new technologies.</p>
+        <p>We've created an online video interviewing platform that helps employers make better and faster shortlisting decisions in their candidate screening process.</p>
+        <p>We're looking for exceptional and like-minded Rails developers to join our team - learn more.</p>
+      website: http://launchpadrecruits.com/dev/
   bronze:
     - image: gaiax_logo.gif
 

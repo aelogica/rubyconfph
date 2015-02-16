@@ -114,10 +114,10 @@ tr {
 
 .ribbon {
   background: #2d3e50;
-  color: #aaa; }
+  color: #aaaaaa; }
 
 .footer {
-  background: #111; }
+  background: #111111; }
 
 .menu-link {
   position: fixed;
@@ -132,7 +132,7 @@ tr {
   z-index: 1000;
   padding: 0.5em;
   font-size: 1.5em;
-  color: #fff;
+  color: white;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   -ms-transition: all 0.2s ease-out;
@@ -152,16 +152,26 @@ tr {
   padding-left: 0;
   padding-top: 0; }
 
+#sponsors h2 {
+  margin-top: 0; }
+
 .team-members, .sponsors {
   padding-left: 0;
   padding-top: 0;
+  margin-bottom: 0;
   text-align: center; }
   .team-members img, .sponsors img {
     padding: 0.3em;
-    background: #fff;
+    background: white;
     box-shadow: 0 3px 10px #5d6357; }
 
-.sponsors.bronze li {
+.sponsors .description {
+  text-align: justify; }
+
+.sponsors br {
+  margin-bottom: 1em; }
+
+.sponsors.bronze li, .sponsors.silver li {
   margin: auto; }
 
 .team-member {
@@ -181,13 +191,13 @@ tr {
 
 .hotel-rates {
   clear: both;
-  border-top: 1px dotted #ccc;
+  border-top: 1px dotted #cccccc;
   margin: 1em 0;
   width: 100%; }
 
 .pure-img-responsive {
   max-width: 100%;
-  background: #fff;
+  background: white;
   padding: 0.3em;
   box-shadow: 0 3px 10px #5d6357; }
 
@@ -206,7 +216,7 @@ tr {
   font-weight: bold;
   font-size: 100%; }
 .pure-form input[type] {
-  border: 2px solid #ddd;
+  border: 2px solid #dddddd;
   box-shadow: none;
   font-size: 100%;
   width: 100%;
@@ -251,13 +261,13 @@ a.pure-button-primary {
 .home-menu a {
   color: white; }
   .home-menu a.disabled {
-    color: #ccc; }
+    color: #cccccc; }
     .home-menu a.disabled:hover {
-      color: #ccc; }
+      color: #cccccc; }
 .home-menu li a:hover, .home-menu li a:focus {
   background: none;
   /* border: none; */
-  color: #AECFE5; }
+  color: #aecfe5; }
 .home-menu.active {
   margin-top: 0; }
   .home-menu.active ul {
