@@ -130,11 +130,6 @@ speakers:
     description: >
       Rails Web developer and the organizer of RailsGirls Tokyo. One of the authors of "Heroku for professionals (Japanese book  http://www.amazon.co.jp/dp/4048915134)" and a reviewer of the translation of "Ruby under a Microscope" Japanese version.
       She is working in Manyo (Everyleaf) corporation.
-  - full_name: Zachary Scott
-    twitter: _zzak
-    image_filename: zachary_scott.jpg
-    description: >
-      {Ruby, Rails, Sinatra} Committer living in San Francisco from Vermont.
 sponsors:
   silver:
     - image: launchpad_recruits.jpg
