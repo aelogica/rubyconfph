@@ -140,7 +140,8 @@ sponsors:
       website: http://launchpadrecruits.com/dev
   bronze:
     - image: gaiax_logo.gif
-
+  tickets:
+    image: ticketbase.svg
 
 # Build settings
 markdown: kramdown
