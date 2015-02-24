@@ -136,6 +136,7 @@ sponsors:
       description: >
         <p>ÆLOGICA is the premier Ruby on Rails and mobile development company with operations in the Philippines.</p>
         <p>ÆLOGICIANS are a dedicated team of professional developers, designers, enthusiasts and problem-solvers with a passionate drive to make customers happy. Together, they create excellent and extraordinary material - from websites to mobile applications - for customers around the world.</p>
+      website: http://aelogica.com
   silver:
     - image: launchpad_recruits.jpg
       description: >
@@ -145,8 +146,10 @@ sponsors:
       website: http://launchpadrecruits.com/dev
   bronze:
     - image: gaiax_logo.gif
+      website: http://en.gaiax.com/
   tickets:
     image: ticketbase.svg
+    website: http://ticketbase.com
 
 # Build settings
 markdown: kramdown

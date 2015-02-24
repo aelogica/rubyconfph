@@ -6,7 +6,13 @@
       <ul class='sponsors gold pure-g'>
         {% for sponsor in site.sponsors.gold %}
         <li class='l-box-lrg pure-u-1-2 pure-u-md-1-2 pure-u-lg-2-4'>
+          {% if sponsor.website %}
+          <a href='{{ sponsor.website }}' target='_blank'>
+            <img class='pure-img-responsive' src='images/sponsors/gold/{{ sponsor.image }}'>
+          </a>
+          {% else %}
           <img class='pure-img-responsive' src='images/sponsors/gold/{{ sponsor.image }}'>
+          {% endif %}
           <div class='description'>
             {{ sponsor.description }}
           </div>
@@ -19,7 +25,13 @@
       <ul class='sponsors silver pure-g'>
         {% for sponsor in site.sponsors.silver %}
         <li class='l-box-lrg pure-u-1-2 pure-u-md-1-2 pure-u-lg-1-3'>
+          {% if sponsor.website %}
+          <a href='{{ sponsor.website }}' target='_blank'>
+            <img class='pure-img-responsive' src='images/sponsors/silver/{{ sponsor.image }}'>
+          </a>
+          {% else %}
           <img class='pure-img-responsive' src='images/sponsors/silver/{{ sponsor.image }}'>
+          {% endif %}
           <div class='description'>
             {{ sponsor.description }}
           </div>
@@ -32,7 +44,13 @@
       <ul class='sponsors bronze pure-g'>
         {% for sponsor in site.sponsors.bronze %}
         <li class='l-box-lrg pure-u-1-2 pure-u-md-1-2 pure-u-lg-1-5'>
+          {% if sponsor.website %}
+          <a href='{{ sponsor.website }}' target='_blank'>
+            <img class='pure-img-responsive' src='images/sponsors/bronze/{{ sponsor.image }}'>
+          </a>
+          {% else %}
           <img class='pure-img-responsive' src='images/sponsors/bronze/{{ sponsor.image }}'>
+          {% endif %}
         </li>
         {% endfor %}
       </ul>
@@ -40,7 +58,9 @@
     <div class='l-box-lrg pure-u-1'>
       <p class='sponsors tickets pure-g'>
         <span class='pure-u-1'>Powered by:</span>
-        <img class='pure-img-responsive' src='images/sponsors/tickets/{{ site.sponsors.tickets.image }}'>
+        <a class='pure-u-1-8' href='{{ site.sponsors.tickets.website }}' target='_blank'>
+          <img class='pure-img-responsive' src='images/sponsors/tickets/{{ site.sponsors.tickets.image }}'>
+        </a>
       </p>
     </div>
   </div>
