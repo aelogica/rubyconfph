@@ -2,10 +2,23 @@
   <div class='pure-g'>
     <h2 class='is-center section-header pure-u-1'>Sponsors</h2>
     <div class='l-box-lrg pure-u-1'>
+      <h2 class='is-center content-head-ribbon'>Gold</h2>
+      <ul class='sponsors gold pure-g'>
+        {% for sponsor in site.sponsors.gold %}
+        <li class='l-box-lrg pure-u-1-2 pure-u-md-1-2 pure-u-lg-2-4'>
+          <img class='pure-img-responsive' src='images/sponsors/gold/{{ sponsor.image }}'>
+          <div class='description'>
+            {{ sponsor.description }}
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class='l-box-lrg pure-u-1'>
       <h2 class='is-center content-head-ribbon'>Silver</h2>
       <ul class='sponsors silver pure-g'>
         {% for sponsor in site.sponsors.silver %}
-        <li class='l-box-lrg pure-u-1-2 pure-u-md-1-2 pure-u-lg-2-5'>
+        <li class='l-box-lrg pure-u-1-2 pure-u-md-1-2 pure-u-lg-1-3'>
           <img class='pure-img-responsive' src='images/sponsors/silver/{{ sponsor.image }}'>
           <div class='description'>
             {{ sponsor.description }}
