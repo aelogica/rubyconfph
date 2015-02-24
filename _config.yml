@@ -131,6 +131,11 @@ speakers:
       Rails Web developer and the organizer of RailsGirls Tokyo. One of the authors of "Heroku for professionals (Japanese book  http://www.amazon.co.jp/dp/4048915134)" and a reviewer of the translation of "Ruby under a Microscope" Japanese version.
       She is working in Manyo (Everyleaf) corporation.
 sponsors:
+  gold:
+    - image: aelogica.png
+      description: >
+        <p>ÆLOGICA is the premier Ruby on Rails and mobile development company with operations in the Philippines.</p>
+        <p>ÆLOGICIANS are a dedicated team of professional developers, designers, enthusiasts and problem-solvers with a passionate drive to make customers happy. Together, they create excellent and extraordinary material - from websites to mobile applications - for customers around the world.</p>
   silver:
     - image: launchpad_recruits.jpg
       description: >
