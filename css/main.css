@@ -1,0 +1,315 @@
+@font-face {
+  font-family: "lifes-a-beach-hollow";
+  src: url("../fonts/lifes-a-beach-hollow.ttf"); }
+@font-face {
+  font-family: "lifes-a-beach";
+  src: url("../fonts/lifes-a-beach.ttf"); }
+@font-face {
+  font-family: "sandy";
+  src: url("../fonts/SandyTextHmkBold.ttf"); }
+@font-face {
+  font-family: "sand";
+  src: url("../fonts/sand.ttf"); }
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  line-height: 1.7em;
+  color: #7f8c8d;
+  font-size: 13px; }
+
+h1, h2, h3, h4, h5, h6, label {
+  color: #5d6357;
+  font-family: "lifes-a-beach", sans-serif; }
+
+a {
+  color: #3c72b7;
+  text-decoration: none; }
+
+table {
+  width: 80%; }
+
+tr {
+  border-bottom: 1px dotted #5d6357; }
+
+#twitter-link {
+  display: block;
+  position: relative;
+  z-index: 100; }
+  #twitter-link a {
+    color: #f9f9f4;
+    position: fixed;
+    right: 1em;
+    top: 0; }
+    #twitter-link a:hover {
+      color: #d0d2c4; }
+
+.splash-container {
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  z-index: 1;
+  overflow: hidden;
+  height: 1000px; }
+
+.splash {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 20%; }
+
+.splash-head {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: white;
+  font-weight: 100;
+  border-radius: 5px;
+  line-height: 1em;
+  font-family: "sand", sans-serif;
+  text-align: center;
+  text-shadow: 2px 2px 5px #5a5a5a; }
+
+.splash-subhead {
+  color: #f9f9f4;
+  font-family: "lifes-a-beach", sans-serif;
+  letter-spacing: 0.05em;
+  opacity: 0.8;
+  font-size: 2em;
+  line-height: 1.2em;
+  text-shadow: 2px 2px 5px #5a5a5a; }
+
+.content-wrapper {
+  position: absolute;
+  top: 75%;
+  width: 100%;
+  min-height: 12%;
+  z-index: 2;
+  background-image: url("../images/sandpaper.png"); }
+
+.content .section-header {
+  font-family: "sand";
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px rgba(90, 90, 90, 0.5);
+  font-size: 2em; }
+.content > .pure-g {
+  border-bottom: 1px dotted #5d6357;
+  box-shadow: 0 10px 6px -6px rgba(90, 90, 90, 0.5); }
+.content ul li {
+  list-style-type: none; }
+.content .l-box-lrg {
+  padding: 0.5em 2em; }
+
+.content-head {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 2em 0 1em; }
+
+.content-subhead {
+  color: #1f8dd6; }
+  .content-subhead i {
+    margin-right: 7px; }
+
+.ribbon {
+  background: #2d3e50;
+  color: #aaaaaa; }
+
+.footer {
+  background: #111111; }
+
+.menu-link {
+  position: fixed;
+  display: block;
+  /* show this only on small screens */
+  top: 0;
+  left: 0;
+  /* "#menu width" */
+  background: rgba(45, 62, 80, 0.5);
+  background: rgba(45, 62, 80, 0.5);
+  /* font-size: 10px; /* change this value to increase/decrease button size */
+  z-index: 1000;
+  padding: 0.5em;
+  font-size: 1.5em;
+  color: white;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out; }
+
+.home-menu {
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out; }
+  .home-menu.active li {
+    width: 100%; }
+
+#speakers ul {
+  padding-left: 0;
+  padding-top: 0; }
+
+#sponsors h2 {
+  margin-top: 0; }
+
+.team-members, .sponsors {
+  padding-left: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+  text-align: center; }
+  .team-members img, .sponsors img {
+    padding: 0.3em;
+    background: white;
+    box-shadow: 0 3px 10px #5d6357; }
+
+.sponsors .description {
+  text-align: justify; }
+
+.sponsors br {
+  margin-bottom: 1em; }
+
+.sponsors.bronze li, .sponsors.silver li, .sponsors.gold li {
+  margin: auto; }
+
+.sponsors.tickets img {
+  margin: auto; }
+
+.team-member {
+  display: block; }
+
+.profile p {
+  padding: 0 1em; }
+.profile h3 {
+  padding: 0 1em;
+  font-weight: bold;
+  font-family: "sand";
+  text-transform: uppercase;
+  font-size: 1em; }
+
+.links {
+  text-shadow: 2px 2px 5px rgba(90, 90, 90, 0.3); }
+
+.hotel-rates {
+  clear: both;
+  border-top: 1px dotted #cccccc;
+  margin: 1em 0;
+  width: 100%; }
+
+.pure-img-responsive {
+  max-width: 100%;
+  background: white;
+  padding: 0.3em;
+  box-shadow: 0 3px 10px #5d6357; }
+
+.l-box {
+  padding: 1em; }
+
+.l-box-lrg {
+  padding: 2em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+
+.is-center {
+  text-align: center; }
+
+.pure-form label {
+  margin: 1em 0 0;
+  font-weight: bold;
+  font-size: 100%; }
+.pure-form input[type] {
+  border: 2px solid #dddddd;
+  box-shadow: none;
+  font-size: 100%;
+  width: 100%;
+  margin-bottom: 1em; }
+
+.pure-button {
+  background-color: #1f8dd6;
+  color: white;
+  padding: 0.5em 2em;
+  border-radius: 5px; }
+
+a.pure-button-primary {
+  background: white;
+  color: #1f8dd6;
+  border-radius: 5px;
+  font-size: 120%;
+  white-space: normal; }
+
+.home-menu {
+  padding: 0.5em;
+  text-align: center;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  color: white;
+  font-family: "sand";
+  font-size: 1.1em;
+  margin-top: -240px; }
+  .home-menu.pure-menu-open {
+    background: #2d3e50;
+    background: #2d3e50; }
+
+.pure-menu.pure-menu-open.pure-menu-fixed {
+  border-bottom: none;
+  z-index: 4; }
+
+.home-menu .pure-menu-heading {
+  color: white;
+  font-weight: 400;
+  font-size: 120%; }
+.home-menu .pure-menu-selected a {
+  color: white; }
+.home-menu a {
+  color: white; }
+  .home-menu a.disabled {
+    color: #cccccc; }
+    .home-menu a.disabled:hover {
+      color: #cccccc; }
+.home-menu li a:hover, .home-menu li a:focus {
+  background: none;
+  /* border: none; */
+  color: #aecfe5; }
+.home-menu.active {
+  margin-top: 0; }
+  .home-menu.active ul {
+    margin-top: 2em; }
+.home-menu.pure-menu-horizontal.active li, .home-menu.pure-menu-horizontal li {
+  display: block; }
+
+@media (max-width: 570px) and (orientation: landscape) {
+  .content-wrapper {
+    top: 160%; } }
+@media (min-width: 48em) {
+  .content .section-header {
+    margin-top: 0; }
+
+  .menu-link {
+    display: none; }
+
+  body {
+    font-size: 16px; }
+
+  .content {
+    padding: 1em; }
+
+  .home-menu {
+    text-align: center;
+    display: block;
+    margin-top: 0; }
+    .home-menu.pure-menu-horizontal li {
+      display: inline-block; }
+
+  .splash {
+    margin-top: 10em; }
+
+  .splash-head {
+    font-size: 250%; }
+
+  .l-box-lrg {
+    border: none; } }
+@media (min-width: 78em) {
+  .splash-head {
+    font-size: 350%;
+    line-height: 1.2; } }
