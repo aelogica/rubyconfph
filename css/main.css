@@ -174,7 +174,7 @@ tr {
 .sponsors.bronze li, .sponsors.silver li, .sponsors.gold li {
   margin: auto; }
 
-.sponsors.tickets img {
+.sponsors.tickets a {
   margin: auto; }
 
 .team-member {
