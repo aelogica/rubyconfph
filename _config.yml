@@ -101,7 +101,7 @@ speakers:
       When he isn't obsessively compulsively playing Starcraft 2, he writes such gems as Wicked,
       Sextant, and oPRO. Richard is a member of the Rails issue team, and is married to Ruby, literally.
   - full_name: Steven Talcott Smith
-    image_filename: steve.png
+    image_filename: steve_smith.jpeg
     description: >
       Steven is the founder of AELOGICA.  He is the author of Level UP - How to Become a Great Professional Software Developer. Steven fell in love with Ruby in 2006 and has enjoyed a 25 year career in IT.  He is the developer of Express Templates and lives with his family in Manila, Philippines and Lake Tahoe in the US.
   - full_name: Terence Lee
@@ -135,7 +135,8 @@ sponsors:
     - image: aelogica.png
       description: >
         <p>ÆLOGICA is the premier Ruby on Rails and mobile development company with operations in the Philippines.</p>
-        <p>ÆLOGICIANS are a dedicated team of professional developers, designers, enthusiasts and problem-solvers with a passionate drive to make customers happy. Together, they create excellent and extraordinary material - from websites to mobile applications - for customers around the world.</p>
+        <p>ÆLOGICA provides team augmentation and rapid application development services to customers in the United States and around the world. ÆLOGICIANS are a dedicated team of professional developers, designers, enthusiasts, and problem-solvers with a passionate drive to make customers happy through technology.</p>
+        <p>If you are looking for a great place to apply your skills and hone your craft, visit their careers page and apply.</p>
       website: http://aelogica.com
   silver:
     - image: launchpad_recruits.jpg
