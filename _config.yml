@@ -69,6 +69,12 @@ speakers:
       As first job, he was a faculty of University of Tokyo (Assistant associate 2006-2008, Assistant professor 2008-2012).
       After the 13 years life in university, now, he is a member of Matz's team in Heroku, Inc.
       He is also a director of Ruby Association.
+  - full_name: Maricris Nonato
+    twitter:  maricris_sn
+    github: maricris-sn
+    image_filename: maricris_nonato.jpg
+    description: >
+      Maricris is a Senior Ruby on Rails developer at Premiere Speakers Bureau. A full-time remote worker, an asthmatic athlete who dreams of one day conquering a triathlon; she loves to take on tasks that are unfamiliar and new. She believes that learning is the only path to growth, having witnessed Rails from 1.x days and lived to tell its tale!
   - full_name: PJ Hagerty
     twitter: aspleenic
     github: aspleenic
