@@ -144,7 +144,7 @@ schedule:
         break: true
       - time: '07:30pm-11:00pm'
         title: Pool Party
-        speaker: Crown Regency Beach Resort (Station 3 beachfront. This is NOT the conference hotel)
+        speaker: Crown Regency Beach Resort (Station 3, beachfront. This is NOT the conference hotel)
   - title: March 27
     events:
       - time: '08:30am-09:25am'
@@ -172,7 +172,7 @@ schedule:
         break: true
         title: LUNCH
       - time: '01:00pm-01:30pm'
-        title: A few things I know about Ruby implementation
+        title: A Few Things I Know About Ruby Implementation
         speaker: Yuki Sasada
       - time: '01:30pm-02:00pm'
         title: Everyone's in Sales
@@ -191,7 +191,7 @@ schedule:
         speaker: Station 3
       - time: '04:30pm'
         title: Snacks and drinks
-        speaker: Crown Regency Beach Resort (Station 3 beachfront)
+        speaker: Crown Regency Beach Resort (Station 3, beachfront)
 
   - title: March 28
     events:
