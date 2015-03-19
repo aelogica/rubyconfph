@@ -9,7 +9,7 @@
         <tr>
           {% if event.break %}
           <td class='time-slot' width='25%'>{{ event.time }}</td>
-          <td class='time-break' colspan='2'>Break</td>
+          <td class='time-break' colspan='2'>{{ event.title }}</td>
           {% else %}
           <td class='time-slot' width='25%'>{{ event.time }}</td>
           <td class='talk-title' width='50%'>{{ event.title }}</td>

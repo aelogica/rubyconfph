@@ -142,22 +142,19 @@ schedule:
       - time: '01:00pm'
         title: Dive
         break: true
-      - time: '06:00pm-07:30pm'
-        title: "Speakers' Dinner"
-        speaker: Crown Regency Beach Resort
       - time: '07:30pm-11:00pm'
-        title: Pre-conference Get-together
-        speaker: Crown Regency Beach Resort
+        title: Pool Party
+        speaker: Crown Regency Beach Resort (Station 3 beachfront. This is NOT the conference hotel)
   - title: March 27
     events:
       - time: '08:30am-09:25am'
         title: Registration
         break: true
-      - time: '09:@5am-09:30am'
-        title: Welcoming Remarks
+      - time: '09:25am-09:30am'
+        title: Welcome Remarks
         speaker: Christopher Rigor
       - time: '09:30am-10:15am'
-        title: 'Ruby 2.2: GC improvement report'
+        title: 'Ruby 2.2: GC Improvement Report'
         speaker: Koichi Sasada
       - time: '10:15am-10:45am'
         title: Optimizing Your Poker Game With the Help of Ruby
@@ -194,7 +191,7 @@ schedule:
         speaker: Station 3
       - time: '04:30pm'
         title: Snacks and drinks
-        speaker: Crown Regency Beach Resort
+        speaker: Crown Regency Beach Resort (Station 3 beachfront)
 
   - title: March 28
     events:
@@ -202,7 +199,7 @@ schedule:
         title: Ruby Science
         speaker: Richard Schneeman
       - time: '10:45am-11:15am'
-        title: TracePoint / ObjectSpace
+        title: 'Ruby Objects: A Walkabout'
         speaker: Terence Lee
       - time: '11:15am-11:30am'
         break: true
@@ -238,7 +235,7 @@ schedule:
         break: true
         title: Lightning Talks
       - time: '06:00pm-10:00pm'
-        title: After-party and Ruby Karaoke
+        title: 'After-party and #RubyKaraoke'
         speaker: Ocean Bar
 
 sponsors:
