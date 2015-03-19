@@ -144,7 +144,7 @@ schedule:
         break: true
       - time: '07:30pm-11:00pm'
         title: Pool Party
-        speaker: Crown Regency Beach Resort (Station 3, beachfront. This is NOT the conference hotel)
+        speaker: Crown Regency Beach Resort (Station 3 beachfront, this is NOT the conference hotel)
   - title: March 27
     events:
       - time: '08:30am-09:25am'
@@ -191,7 +191,7 @@ schedule:
         speaker: Station 3
       - time: '04:30pm'
         title: Snacks and drinks
-        speaker: Crown Regency Beach Resort (Station 3, beachfront)
+        speaker: Crown Regency Beach Resort (Station 3 beachfront)
 
   - title: March 28
     events:
