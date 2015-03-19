@@ -1,0 +1,24 @@
+<div class='content' id='schedule'>
+  <div class='pure-g'>
+    <h2 class='is-center section-header pure-u-1'>Schedule</h2>
+    <div class='l-box-lrg pure-u-1 pure-table-responsive'>
+      {% for day in site.schedule %}
+      <h3>{{ day.title }}</h3>
+      <table class='events pure-table'>
+        {% for event in day.events %}
+        <tr>
+          {% if event.break %}
+          <td class='time-slot' width='25%'>{{ event.time }}</td>
+          <td class='time-break' colspan='2'>Break</td>
+          {% else %}
+          <td class='time-slot' width='25%'>{{ event.time }}</td>
+          <td class='talk-title' width='50%'>{{ event.title }}</td>
+          <td class='talk-speaker' width='25%'>{{ event.speaker }}</td>
+          {% endif %}
+        </tr>
+        {% endfor %}
+      </table>
+      {% endfor %}
+    </div>
+  </div>
+</div>

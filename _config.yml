@@ -136,6 +136,111 @@ speakers:
     description: >
       Rails Web developer and the organizer of RailsGirls Tokyo. One of the authors of "Heroku for professionals (Japanese book  http://www.amazon.co.jp/dp/4048915134)" and a reviewer of the translation of "Ruby under a Microscope" Japanese version.
       She is working in Manyo (Everyleaf) corporation.
+schedule:
+  - title: March 26
+    events:
+      - time: '01:00pm'
+        title: Dive
+        break: true
+      - time: '06:00pm-07:30pm'
+        title: "Speakers' Dinner"
+        speaker: Crown Regency Beach Resort
+      - time: '07:30pm-11:00pm'
+        title: Pre-conference Get-together
+        speaker: Crown Regency Beach Resort
+  - title: March 27
+    events:
+      - time: '08:30am-09:25am'
+        title: Registration
+        break: true
+      - time: '09:@5am-09:30am'
+        title: Welcoming Remarks
+        speaker: Christopher Rigor
+      - time: '09:30am-10:15am'
+        title: 'Ruby 2.2: GC improvement report'
+        speaker: Koichi Sasada
+      - time: '10:15am-10:45am'
+        title: Optimizing Your Poker Game With the Help of Ruby
+        speaker: Assaf Gelber
+      - time: '10:45am-11:00am'
+        break: true
+        title: BREAK
+      - time: '11:00am-11:30am'
+        title: Sketching for Programmers
+        speaker: Radamanthus Batnag
+      - time: '11:30am-12:00pm'
+        title: Getting that Rails Project to Launch on Time
+        speaker: Joshua Lat
+      - time: '12:00pm-1:00pm'
+        break: true
+        title: LUNCH
+      - time: '01:00pm-01:30pm'
+        title: A few things I know about Ruby implementation
+        speaker: Yuki Sasada
+      - time: '01:30pm-02:00pm'
+        title: Everyone's in Sales
+        speaker: Danish Khan
+      - time: '02:00pm-02:15pm'
+        break: true
+        title: BREAK
+      - time: '02:15pm-02:45pm'
+        title: Coding Confidently in Ruby
+        speaker: Maricris Nonato
+      - time: '02:45pm-03:15pm'
+        title: A Brief History of Time (for Rubyists)
+        speaker: Hiro Asari
+      - time: '03:45pm'
+        title: Water Activities
+        speaker: Station 3
+      - time: '04:30pm'
+        title: Snacks and drinks
+        speaker: Crown Regency Beach Resort
+
+  - title: March 28
+    events:
+      - time: '10:00am-10:45am'
+        title: Ruby Science
+        speaker: Richard Schneeman
+      - time: '10:45am-11:15am'
+        title: TracePoint / ObjectSpace
+        speaker: Terence Lee
+      - time: '11:15am-11:30am'
+        break: true
+        title: BREAK
+      - time: '11:30am-12:00pm'
+        title: 'Treat your servers like your Ruby App: Infrastructure as Code'
+        speaker: Allan Espinosa
+      - time: '12:00pm-12:30pm'
+        title: Increasing Your Value as a Developer
+        speaker: Steven Talcott Smith
+      - time: '12:30pm-1:30pm'
+        break: true
+        title: LUNCH
+      - time: '01:30pm-02:00pm'
+        title: 'Urban Legends: What You Code Makes You Who You Are'
+        speaker: PJ Hagerty
+      - time: '02:00pm-02:30pm'
+        title: Rails <3 React
+        speaker: Vipul Amler
+      - time: '02:30pm-02:45pm'
+        break: true
+        title: BREAK
+      - time: '02:45pm-03:15pm'
+        title: How `did_you_mean` gem works
+        speaker: Yuki Nishijima
+      - time: '03:15pm-03:45pm'
+        title: Succeeding with Open Source
+        speaker: Phil Arndt
+      - time: '03:45pm-04:15pm'
+        break: true
+        title: BREAK
+      - time: '04:15pm-05:15pm'
+        break: true
+        title: Lightning Talks
+      - time: '06:00pm-10:00pm'
+        title: After-party and Ruby Karaoke
+        speaker: Ocean Bar
+
 sponsors:
   gold:
     - image: aelogica.png

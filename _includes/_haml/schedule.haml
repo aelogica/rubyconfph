@@ -1,0 +1,19 @@
+#schedule.content
+  .pure-g
+    %h2.is-center.section-header.pure-u-1 Schedule
+    .l-box-lrg.pure-u-1.pure-table-responsive
+      {% for day in site.schedule %}
+      %h3 {{ day.title }}
+      %table.events.pure-table
+        {% for event in day.events %}
+        %tr
+          {% if event.break %}
+          %td.time-slot{width: '25%'} {{ event.time }}
+          %td.time-break{colspan: 2} Break
+          {% else %}
+          %td.time-slot{width: '25%'} {{ event.time }}
+          %td.talk-title{width: '50%'} {{ event.title }}
+          %td.talk-speaker{width: '25%'} {{ event.speaker }}
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
