@@ -12,7 +12,14 @@
           <td class='time-break' colspan='2'>{{ event.title }}</td>
           {% else %}
           <td class='time-slot' width='25%'>{{ event.time }}</td>
-          <td class='talk-title' width='50%'>{{ event.title }}</td>
+          <td class='talk-details' width='50%'>
+            <span class='talk-title'>{{ event.title }}</span>
+            {% if event.description %}
+            <p class='talk-description'>
+              {{ event.description }}
+            </p>
+            {% endif %}
+          </td>
           <td class='talk-speaker' width='25%'>{{ event.speaker }}</td>
           {% endif %}
         </tr>

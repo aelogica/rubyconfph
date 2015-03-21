@@ -12,7 +12,12 @@
           %td.time-break{colspan: 2} {{ event.title }}
           {% else %}
           %td.time-slot{width: '25%'} {{ event.time }}
-          %td.talk-title{width: '50%'} {{ event.title }}
+          %td.talk-details{width: '50%'}
+            %span.talk-title {{ event.title }}
+            {% if event.description %}
+            %p.talk-description
+              {{ event.description }}
+            {% endif %}
           %td.talk-speaker{width: '25%'} {{ event.speaker }}
           {% endif %}
         {% endfor %}

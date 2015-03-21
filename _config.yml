@@ -156,9 +156,13 @@ schedule:
       - time: '09:30am-10:15am'
         title: 'Ruby 2.2: GC Improvement Report'
         speaker: Koichi Sasada
+        description: >
+          Nullam vitae lacinia tellus, quis vehicula sem. Nam sagittis felis ut sagittis pharetra. Suspendisse nec diam mauris. Proin vel risus at lectus sodales mattis. Morbi et sapien nec eros facilisis varius id eget ante. Sed efficitur sem id urna fringilla, eget faucibus nisl semper. Suspendisse auctor enim dapibus molestie mattis. Sed ac ante justo. Aenean rutrum ligula sed dictum dictum. Nam sed ante eget tellus sodales viverra.
       - time: '10:15am-10:45am'
         title: Optimizing Your Poker Game With the Help of Ruby
         speaker: Assaf Gelber
+        description: >
+          Nullam vitae lacinia tellus, quis vehicula sem. Nam sagittis felis ut sagittis pharetra. Suspendisse nec diam mauris. Proin vel risus at lectus sodales mattis. Morbi et sapien nec eros facilisis varius id eget ante. Sed efficitur sem id urna fringilla, eget faucibus nisl semper. Suspendisse auctor enim dapibus molestie mattis. Sed ac ante justo. Aenean rutrum ligula sed dictum dictum. Nam sed ante eget tellus sodales viverra.
       - time: '10:45am-11:00am'
         break: true
         title: BREAK

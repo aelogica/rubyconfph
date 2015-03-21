@@ -10,3 +10,8 @@ $(document).ready ->
 
   $(".home-menu a").click ->
     $(".home-menu").removeClass "active"
+
+  $('.talk-description').readmore(
+    collapsedHeight: 20
+    blockCSS: 'font-size: 0.8em'
+  )
