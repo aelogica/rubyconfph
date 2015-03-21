@@ -7,8 +7,12 @@
         return $(".home-menu").addClass("active");
       }
     });
-    return $(".home-menu a").click(function() {
+    $(".home-menu a").click(function() {
       return $(".home-menu").removeClass("active");
+    });
+    return $('.talk-description').readmore({
+      collapsedHeight: 20,
+      blockCSS: 'font-size: 0.8em'
     });
   });
 
