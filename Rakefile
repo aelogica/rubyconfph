@@ -52,7 +52,7 @@ task :deploy do
   Rake::Task["haml"].execute
 
   # run jekyll command to generate site folder
-  `jekyll build`
+  `bundle exec jekyll build`
 
   # copy the _site folder in a tmp folder outside the repo
   `mkdir ~/jekylltmp`
