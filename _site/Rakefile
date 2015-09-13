@@ -55,8 +55,8 @@ task :deploy do
   `bundle exec jekyll build`
 
   # copy the _site folder in a tmp folder outside the repo
-  `mkdir ~/jekylltmp`
-  `cp -r _site/* ~/jekylltmp/`
+  # `mkdir ~/jekylltmp`
+  `cp _site ~/jekylltmp`
 
   # add the image assets (for some reason jekyll-assets doesn't include this automatically)
   # `cp -r _assets/images/ ~/jekylltmp/assets/`
