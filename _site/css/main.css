@@ -10,19 +10,24 @@
 @font-face {
   font-family: "sand";
   src: url("../fonts/sand.ttf"); }
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+html {
+  min-height: 100%; }
 
 body {
+  height: 100vh;
   line-height: 1.7em;
   color: #7f8c8d;
-  font-size: 13px; }
+  font-size: 13px;
+  background: url("../images/rockywall_@2X.png") repeat;
+  min-height: 100%; }
+
+.main-container {
+  background: rgba(30, 30, 30, 0.2);
+  width: 100%;
+  height: 100%; }
 
 h1, h2, h3, h4, h5, h6, label {
-  color: #5d6357;
-  font-family: "lifes-a-beach", sans-serif; }
+  color: #5d6357; }
 
 a {
   color: #3c72b7;
@@ -47,11 +52,13 @@ tr {
       color: #d0d2c4; }
 
 .splash-container {
-  background-image: url("../images/background.jpg");
-  background-size: cover;
   z-index: 1;
   overflow: hidden;
-  height: 1000px; }
+  background-image: url("../images/logo2016.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 90vh; }
 
 .splash {
   width: 80%;
@@ -73,10 +80,11 @@ tr {
 
 .splash-subhead {
   color: #f9f9f4;
-  font-family: "lifes-a-beach", sans-serif;
+  font-family: "oswald", sans-serif;
+  font-size: 2em;
+  font-weight: bold;
   letter-spacing: 0.05em;
   opacity: 0.8;
-  font-size: 2em;
   line-height: 1.2em;
   text-shadow: 2px 2px 5px #5a5a5a; }
 
@@ -256,15 +264,14 @@ a.pure-button-primary {
 .home-menu {
   padding: 0.5em;
   text-align: center;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px 3px #ccc;
   text-transform: uppercase;
   color: white;
   font-family: "sand";
   font-size: 1.1em;
   margin-top: -240px; }
   .home-menu.pure-menu-open {
-    background: #2d3e50;
-    background: #2d3e50; }
+    background: rgba(144, 200, 240, 0.5); }
 
 .pure-menu.pure-menu-open.pure-menu-fixed {
   border-bottom: none;
@@ -293,6 +300,9 @@ a.pure-button-primary {
 .home-menu.pure-menu-horizontal.active li, .home-menu.pure-menu-horizontal li {
   display: block; }
 
+@media(min-width: 360px) {
+  .splash {
+    margin-top: 20em; } }
 @media (max-width: 570px) and (orientation: landscape) {
   .content-wrapper {
     top: 160%; } }
@@ -317,7 +327,7 @@ a.pure-button-primary {
       display: inline-block; }
 
   .splash {
-    margin-top: 10em; }
+    margin-top: 15em; }
 
   .splash-head {
     font-size: 250%; }
