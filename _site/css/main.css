@@ -1,15 +1,9 @@
 @font-face {
-  font-family: "lifes-a-beach-hollow";
-  src: url("../fonts/lifes-a-beach-hollow.ttf"); }
+  font-family: "jeepney";
+  src: url("../fonts/jeepney.ttf"); }
 @font-face {
-  font-family: "lifes-a-beach";
-  src: url("../fonts/lifes-a-beach.ttf"); }
-@font-face {
-  font-family: "sandy";
-  src: url("../fonts/SandyTextHmkBold.ttf"); }
-@font-face {
-  font-family: "sand";
-  src: url("../fonts/sand.ttf"); }
+  font-family: "cubano";
+  src: url("../fonts/cubano-regular-webfont.ttf"); }
 html {
   min-height: 100%; }
 
@@ -262,16 +256,17 @@ a.pure-button-primary {
   white-space: normal; }
 
 .home-menu {
-  padding: 0.5em;
+  padding: 0 0.5em;
   text-align: center;
   box-shadow: 0 0 20px 3px #ccc;
   text-transform: uppercase;
   color: white;
-  font-family: "sand";
-  font-size: 1.1em;
-  margin-top: -240px; }
+  font-family: "jeepney";
+  font-size: 2em;
+  margin-top: -240px;
+  letter-spacing: 2px; }
   .home-menu.pure-menu-open {
-    background: rgba(144, 200, 240, 0.5); }
+    background: rgba(150, 150, 150, 0.5); }
 
 .pure-menu.pure-menu-open.pure-menu-fixed {
   border-bottom: none;
@@ -279,20 +274,19 @@ a.pure-button-primary {
 
 .home-menu .pure-menu-heading {
   color: white;
-  font-weight: 400;
-  font-size: 120%; }
+  font-weight: 400; }
 .home-menu .pure-menu-selected a {
   color: white; }
 .home-menu a {
-  color: white; }
+  color: #f3cd33; }
   .home-menu a.disabled {
     color: #ccc; }
     .home-menu a.disabled:hover {
-      color: #ccc; }
+      color: #e39837; }
 .home-menu li a:hover, .home-menu li a:focus {
   background: none;
   /* border: none; */
-  color: #AECFE5; }
+  color: #e39837; }
 .home-menu.active {
   margin-top: 0; }
   .home-menu.active ul {

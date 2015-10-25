@@ -14,6 +14,8 @@ GEM
     execjs (2.5.2)
     fast-stemmer (1.0.2)
     ffi (1.9.10)
+    haml (4.0.7)
+      tilt
     hitimes (1.2.2)
     jekyll (2.5.3)
       classifier-reborn (~> 2.0)
@@ -57,6 +59,7 @@ GEM
     redcarpet (3.3.2)
     safe_yaml (1.0.4)
     sass (3.4.16)
+    tilt (2.0.1)
     timers (4.0.4)
       hitimes
     toml (0.1.2)
@@ -67,7 +70,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  haml (~> 4.0.7)
   jekyll (~> 2.5)
 
 BUNDLED WITH
-   1.10.5
+   1.10.6
