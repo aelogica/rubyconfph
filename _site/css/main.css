@@ -263,10 +263,16 @@ a.pure-button-primary {
   color: white;
   font-family: "jeepney";
   font-size: 2em;
-  margin-top: -240px;
-  letter-spacing: 2px; }
+  margin: auto 10%;
+  letter-spacing: 1px;
+  border-radius: 1em; }
   .home-menu.pure-menu-open {
-    background: rgba(150, 150, 150, 0.5); }
+    background: #333;
+    width: 80%; }
+  .home-menu li a {
+    padding: 5px 3px; }
+  .home-menu .fa {
+    font-size: 0.7em; }
 
 .pure-menu.pure-menu-open.pure-menu-fixed {
   border-bottom: none;
@@ -278,7 +284,7 @@ a.pure-button-primary {
 .home-menu .pure-menu-selected a {
   color: white; }
 .home-menu a {
-  color: #f3cd33; }
+  color: #fff; }
   .home-menu a.disabled {
     color: #ccc; }
     .home-menu a.disabled:hover {
@@ -316,7 +322,7 @@ a.pure-button-primary {
   .home-menu {
     text-align: center;
     display: block;
-    margin-top: 0; }
+    margin-top: 0.5em; }
     .home-menu.pure-menu-horizontal li {
       display: inline-block; }
 

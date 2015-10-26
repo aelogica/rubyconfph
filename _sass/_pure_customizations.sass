@@ -3,6 +3,8 @@ $dark-red: #9a2b29
 $yellow: #f4ef3a
 $dark-yellow: #f3cd33
 $orange: #e39837
+$dark-contrast: #333
+$light: #fff
 
 .pure-img-responsive
   max-width: 100%
@@ -53,11 +55,21 @@ a.pure-button-primary
   color: white
   font-family: 'jeepney'
   font-size: 2em
-  margin-top: -240px
-  letter-spacing: 2px
+  margin: auto 10%
+  // margin-top: -240px
+  letter-spacing: 1px
+  border-radius: 1em
   &.pure-menu-open
     // background: #2d3e50
-    background: rgba(150, 150, 150, 0.5)
+    // background: rgba(#fff, 0.5)
+    background: $dark-contrast
+    width: 80%
+
+  li a
+    padding: 5px 3px
+
+  .fa
+    font-size: .7em
 
 .pure-menu.pure-menu-open.pure-menu-fixed
   border-bottom: none
@@ -70,7 +82,7 @@ a.pure-button-primary
   .pure-menu-selected a
     color: white
   a
-    color: $dark-yellow
+    color: $light
     &.disabled
       color: #ccc
       &:hover
