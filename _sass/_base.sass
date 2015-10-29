@@ -1,3 +1,5 @@
+$background-mask: rgba(30, 30, 30, 0.2)
+
 html
   min-height: 100%
 
@@ -10,9 +12,9 @@ body
   min-height: 100%
 
 .main-container
-  background: rgba(30, 30, 30, 0.2)
   width: 100%
   height: 100%
+  background-color: $background-mask
 
 h1, h2, h3, h4, h5, h6, label
   color: #5d6357
@@ -48,7 +50,7 @@ tr
     size: contain
     repeat: no-repeat
     position: 50% 50%
-  height: 90vh
+  height: 100vh
 
 .splash
   width: 80%
@@ -81,32 +83,47 @@ tr
   text-shadow: 2px 2px 5px rgba(90, 90, 90, 1)
 
 .content-wrapper
-  position: absolute
-  top: 75%
-  width: 100%
-  min-height: 12%
-  z-index: 2
-  background-image: url('../images/sandpaper.png')
+  background: $background-mask
+  padding-top: 1em
 
 .content
   .section-header
-    font-family: 'sand'
-    text-transform: uppercase
+    background: $dark-contrast
+    box-shadow: 3px 3px 10px 2px #999
+    color: $light
+
+    font:
+      family: 'jeepney'
+      size: 3em
     text-shadow: 2px 2px 5px rgba(90, 90, 90, 0.5)
-    font-size: 2em
-  > .pure-g
-    border-bottom: 1px dotted #5d6357
-    box-shadow: 0 10px 6px -6px rgba(90, 90, 90, 0.5)
+    line-height: 1
+    margin:
+      bottom: 0.5em
+
+    .fa
+      font-size: 0.5em
+
+  // > .pure-g
+  //   border-bottom: 1px dotted #5d6357
+  //   box-shadow: 0 10px 6px -6px rgba(90, 90, 90, 0.5)
+
   ul li
     list-style-type: none
+
   .l-box-lrg
     padding: 0.5em 2em
 
 .content-head
-  font-weight: 400
+  font:
+    weight: 400
   text-transform: uppercase
-  letter-spacing: 0.1em
-  margin: 2em 0 1em
+  margin: 0
+  color: $orange
+  text-shadow: 2px 2px 5px rgba($red, 0.3)
+
+  &.content-head-ribbon
+    font:
+      family: 'oswald', sans-serif
 
 .content-subhead
   color: #1f8dd6
@@ -221,3 +238,11 @@ tr
   border-top: 1px dotted #ccc
   margin: 1em 0
   width: 100%
+
+.venue-description
+  p
+    padding:
+      right: 1em
+
+.header
+  background: $background-mask

@@ -1,11 +1,3 @@
-$red: #cf312d
-$dark-red: #9a2b29
-$yellow: #f4ef3a
-$dark-yellow: #f3cd33
-$orange: #e39837
-$dark-contrast: #333
-$light: #fff
-
 .pure-img-responsive
   max-width: 100%
   background: #fff
@@ -50,19 +42,18 @@ a.pure-button-primary
 .home-menu
   padding: 0 0.5em
   text-align: center
-  box-shadow: 0 0 20px 3px #ccc
+  box-shadow: 0 0 10px 2px $dark-red
   text-transform: uppercase
   color: white
   font-family: 'jeepney'
   font-size: 2em
   margin: auto 10%
-  // margin-top: -240px
   letter-spacing: 1px
   border-radius: 1em
   &.pure-menu-open
     // background: #2d3e50
     // background: rgba(#fff, 0.5)
-    background: $dark-contrast
+    background: $red
     width: 80%
 
   li a
@@ -85,13 +76,12 @@ a.pure-button-primary
     color: $light
     &.disabled
       color: #ccc
-      &:hover
-        color: $orange
+
   li a
     &:hover, &:focus
       background: none
       /* border: none;
-      color: $orange
+      color: $yellow
   &.active
     margin-top: 0
     ul
