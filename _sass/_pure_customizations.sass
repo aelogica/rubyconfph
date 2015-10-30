@@ -38,11 +38,11 @@ a.pure-button-primary
   border-radius: 5px
   font-size: 120%
   white-space: normal
+  font-family: 'oswald'
 
 .home-menu
   padding: 0 0.5em
   text-align: center
-  box-shadow: 0 0 10px 2px $dark-red
   text-transform: uppercase
   color: white
   font-family: 'jeepney'
@@ -53,7 +53,7 @@ a.pure-button-primary
   &.pure-menu-open
     // background: #2d3e50
     // background: rgba(#fff, 0.5)
-    background: $red
+    background: $dark-contrast
     width: 80%
 
   li a
@@ -89,3 +89,6 @@ a.pure-button-primary
   &.pure-menu-horizontal
     &.active li, li
       display: block
+
+.pure-menu a, .pure-menu .pure-menu-heading
+  line-height: 0

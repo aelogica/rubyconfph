@@ -227,7 +227,8 @@ tr {
 
 .header {
   background: rgba(30, 30, 30, 0.2);
-  padding-bottom: 3em; }
+  padding-bottom: 3em;
+  padding-top: 1em; }
 
 .pure-img-responsive {
   max-width: 100%;
@@ -267,12 +268,12 @@ a.pure-button-primary {
   color: #1f8dd6;
   border-radius: 5px;
   font-size: 120%;
-  white-space: normal; }
+  white-space: normal;
+  font-family: "oswald"; }
 
 .home-menu {
   padding: 0 0.5em;
   text-align: center;
-  box-shadow: 0 0 10px 2px #9a2b29;
   text-transform: uppercase;
   color: white;
   font-family: "jeepney";
@@ -281,7 +282,7 @@ a.pure-button-primary {
   letter-spacing: 1px;
   border-radius: 1em; }
   .home-menu.pure-menu-open {
-    background: #cf312d;
+    background: #333;
     width: 80%; }
   .home-menu li a {
     padding: 5px 3px; }
@@ -312,6 +313,9 @@ a.pure-button-primary {
 .home-menu.pure-menu-horizontal.active li, .home-menu.pure-menu-horizontal li {
   display: block; }
 
+.pure-menu a, .pure-menu .pure-menu-heading {
+  line-height: 0; }
+
 @media(min-width: 360px) {
   .splash {
     margin-top: 20em; } }
@@ -338,7 +342,7 @@ a.pure-button-primary {
       display: inline-block; }
 
   .splash {
-    margin-top: 15em; }
+    margin-top: 5em; }
 
   .splash-head {
     font-size: 250%; }
