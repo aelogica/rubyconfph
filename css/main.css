@@ -157,10 +157,6 @@ tr {
   .home-menu.active li {
     width: 100%; }
 
-#speakers ul {
-  padding-left: 0;
-  padding-top: 0; }
-
 #sponsors h2 {
   margin-top: 0; }
 
@@ -209,6 +205,8 @@ tr {
   font-family: "cubano";
   text-transform: uppercase;
   font-size: 2em; }
+.profile > p {
+  padding: 0 1em; }
 
 .links {
   text-shadow: 2px 2px 5px rgba(90, 90, 90, 0.3); }
@@ -351,3 +349,9 @@ a.pure-button-primary {
   .splash-head {
     font-size: 350%;
     line-height: 1.2; } }
+.header {
+  background: rgba(30, 30, 30, 0.2); }
+
+#speakers ul {
+  padding-left: 0;
+  padding-top: 0; }
