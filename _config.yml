@@ -14,6 +14,10 @@ meet_the_team:
     - name: 'Chris Menina'
       github: kristm
       image: krist.png
+    - name: 'Ramon Tayag'
+      twitter: rtayag
+      github: ramontayag
+      image: ramon.jpg
   staff:
     - name: 'Sam Rigor'
       image: sam.jpg
