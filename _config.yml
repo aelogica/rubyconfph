@@ -36,6 +36,12 @@ speakers:
     image_filename: aaron_patterson.jpeg
     description: >
       By day, Aaron Patterson (tenderlove) is a mild mannered programmer for Red Hat whose Ruby code is almost as good looking as him. By night, he dons his Pink Warrior suit which gives him the power to contribute to many Open Source projects such as nokogiri, Ruby, and Rails. If you have seen someone kissing Matz or DHH at a conference, it was probably him.
+  - full_name: Charles Nutter
+    twitter: headius
+    github: headius
+    image_filename: charles_nutter.jpg
+    description: >
+      Charles Oliver Nutter works at Red Hat on JVM languages and hopes to help make OpenJDK the preferred platform for language development.
 schedule:
   - title: March 26
     events:
