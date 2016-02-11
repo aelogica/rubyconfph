@@ -42,6 +42,19 @@ speakers:
     image_filename: charles_nutter.jpg
     description: >
       Charles Oliver Nutter works at Red Hat on JVM languages and hopes to help make OpenJDK the preferred platform for language development.
+  - full_name: Akira Matsuda
+    twitter: a_matsuda
+    github: amatsuda
+    image_filename: akira_matsuda.jpg
+    description: > 
+      Ruby committer, Rails committer, creator of widely used Rails plugins such as Kaminari, active_decorator, action_args, i18n_generators, html5_validators, motorhead, erd, database_rewinder, etc. 
+      Chief Organizer of RubyKaigi 2015 and 2016. Founder of "Asakusa.rb", the most active Ruby community in Japan.
+  - full_name: Assaf Gelber
+    twitter: assafgelber 
+    github: agelber
+    image_filename: assaf_gelber.png
+    description: >
+      Assaf is a developer and Tech Ambassador at the PayPal Tel Aviv Consumer Product Center. Based out of sunny Tel Aviv, Assaf is also an amateur poker player, coffee brewer, and cake eater who loves using his tech knowledge for all his different hobbies.
 schedule:
   - title: March 26
     events:
