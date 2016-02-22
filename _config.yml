@@ -55,6 +55,30 @@ speakers:
     image_filename: assaf_gelber.png
     description: >
       Assaf is a developer and Tech Ambassador at the PayPal Tel Aviv Consumer Product Center. Based out of sunny Tel Aviv, Assaf is also an amateur poker player, coffee brewer, and cake eater who loves using his tech knowledge for all his different hobbies.
+  - full_name: Christophe Philemotte
+    twitter: _toch
+    github: toch
+    image_filename: christophe_philemotte.jpg
+    description: >
+      Christophe is the founder of PullReview, an automated code review for Ruby and Rails. He is a Ruby and C++ developer. When he's not writing disease simulators or PullReview, he helps others with development challenges, writes blog post, has co-founded Ruby Belgium, and likes to talk at conferences.
+  - full_name: Claudio Baccigalupo
+    twitter: 
+    github: claudiob
+    image_filename:
+    description: >
+      Claudio is a member of the Rails Issues team, a frequent contributor to the Rails source code (over 150 commits), the organizer of the L.A. Ruby/Rails meetup and one of the authors of the weekly newsletter "This week in Rails".
+  - full_name: Ejay Canaria
+    twitter: iamejay
+    github: ejaypcanaria
+    image_filename: ejay_canaria.jpeg
+    description: >
+      Ejay Canaria is a curiosity follower and software writer. He's from the Philippines and is currently working as a software engineer in Singapore for TradeGecko. He's into Ruby and Javascript. When not coding, he is probably playing with his guitars or reading an eBook.
+  - full_name: Isha Tripathi
+    twitter: TripathiIsha
+    github: isha-tripathi
+    image_filename: isha_tripathi.jpg
+    description: >
+      Isha is a multi-tasker at ThoughtWorks India. She likes to dabble in a lot of new tools and technologies. In her spare time she likes to read, salsa and travel. She has played different roles on her teams, including but not limited to being a developer and business analyst. She is a passionate feminist, and a proud supporter of equality in the workspace.
 schedule:
   - title: March 26
     events:
