@@ -64,7 +64,7 @@ speakers:
   - full_name: Claudio Baccigalupo
     twitter: 
     github: claudiob
-    image_filename:
+    image_filename: claudio_baccigalupo.jpg
     description: >
       Claudio is a member of the Rails Issues team, a frequent contributor to the Rails source code (over 150 commits), the organizer of the L.A. Ruby/Rails meetup and one of the authors of the weekly newsletter "This week in Rails".
   - full_name: Ejay Canaria
@@ -79,6 +79,30 @@ speakers:
     image_filename: isha_tripathi.jpg
     description: >
       Isha is a multi-tasker at ThoughtWorks India. She likes to dabble in a lot of new tools and technologies. In her spare time she likes to read, salsa and travel. She has played different roles on her teams, including but not limited to being a developer and business analyst. She is a passionate feminist, and a proud supporter of equality in the workspace.
+  - full_name: Jeremy Hoffing
+    twitter:
+    github: jcohenho
+    image_filename: jeremy_hoffing.png
+    description: >
+      Jeremy is a software developer at Collab in Los Angeles, CA. He's in love with Ruby on Rails but is open to dating other web frameworks. When he's not coding, he's in the water surfing or diving, or working on his solar-powered greenhouse.
+  - full_name: Joshua Lat
+    twitter: mrjoshualat
+    github: joshualat
+    image_filename: joshua_lat_2016.png
+    description: >
+      Joshua Lat serves as the Scrum Master, Lead Developer, and Infrastructure Engineer of Deal Grocer. For the past couple of years, he has been sharing his knowledge in several conferences and meetups around the country to discuss working solutions to common problems in startups and web development.
+  - full_name: Mark Agbuya
+    twitter: 
+    github:
+    image_filename: mark_agbuya.jpg
+    description: >
+      Mark is a full-time Rails web developer and lead payments strategist at ServiceSeeking in Australia. He loves breakdancing but when he's not training to perfect the art of spinning on his head, he continues to explore and expand his knowledge on good programming practices. 
+  - full_name: Nico Hagenburger
+    twitter: hagenburger
+    github: hagenburger
+    image_filename: nico_hagenburger.jpg
+    description: >
+      Nico is a front-end developer with a strong love for Ruby and therefore mostly work Middleman or Rails projects with large, maintainable code bases, style guides, and designing in the browser. He finds a way to automate things and create open-source solutions like the LivingStyleGuide Gem.
 schedule:
   - title: March 26
     events:
