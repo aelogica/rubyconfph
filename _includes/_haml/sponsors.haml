@@ -1,12 +1,27 @@
 #sponsors.content
   .pure-g
-    %h2.is-center.section-header.pure-u-1 Sponsors
+    %h2.is-center.section-header.pure-u-1 Thank you to our Sponsors!
+
+    .l-box-lrg.pure-u-1
+      %h2.is-center.content-head-ribbon Platinum
+      %ul.sponsors.gold.pure-g
+        {% for sponsor in site.sponsors.platinum %}
+        %li.l-box-lrg.pure-u-1.pure-u-md-1-2.pure-u-lg-2-4
+          {% if sponsor.website %}
+          %a{href: "{{ sponsor.website }}", target: '_blank'}
+            %img.pure-img-responsive{src: "images/sponsors/platinum/{{ sponsor.image }}"}/
+          {% else %}
+          %img.pure-img-responsive{src: "images/sponsors/platinum/{{ sponsor.image }}"}/
+          {% endif %}
+          .description
+            {{ sponsor.description }}
+        {% endfor %}
 
     .l-box-lrg.pure-u-1
       %h2.is-center.content-head-ribbon Gold
       %ul.sponsors.gold.pure-g
         {% for sponsor in site.sponsors.gold %}
-        %li.l-box-lrg.pure-u-1-2.pure-u-md-1-2.pure-u-lg-2-4
+        %li.l-box-lrg.pure-u-1.pure-u-md-1-2.pure-u-lg-2-4
           {% if sponsor.website %}
           %a{href: "{{ sponsor.website }}", target: '_blank'}
             %img.pure-img-responsive{src: "images/sponsors/gold/{{ sponsor.image }}"}/
@@ -21,10 +36,10 @@
       %h2.is-center.content-head-ribbon Silver
       %ul.sponsors.silver.pure-g
         {% for sponsor in site.sponsors.silver %}
-        %li.l-box-lrg.pure-u-1-2.pure-u-md-1-2.pure-u-lg-1-3
+        %li.l-box-lrg.pure-u-1.pure-u-md-1-2.pure-u-lg-1-3
           {% if sponsor.website %}
           %a{href: "{{ sponsor.website }}", target: '_blank'}
-            %img.pure-img-responsive{src: "images/sponsors/silver/{{ sponsor.image }}"}/
+            %img.pure-img-responsive{id: "{{ sponsor.name }}", src: "images/sponsors/silver/{{ sponsor.image }}"}/
           {% else %}
           %img.pure-img-responsive{src: "images/sponsors/silver/{{ sponsor.image }}"}/
           {% endif %}

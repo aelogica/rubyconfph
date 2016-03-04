@@ -210,6 +210,13 @@ schedule:
         speaker: Ocean Bar
 
 sponsors:
+  platinum:
+    - image: shield_foundry.png
+      description: >
+        <p>At SHIELD Foundry, we don’t just create great applications, we innovate. Our collaborative environment enables our developers to create the next big thing for our clients. </p>
+        <p>Our team of industry-leading engineers bring an unmatched developing skillset that spans numerous technologies and areas of expertise. Need some programming muscle to bring an idea to life? You just found it. </p>
+        <p>SHIELD Foundry is always looking for the best and brightest in the industry. If you’re looking to join a fast-paced and challenging team, contact us today to take your career to the next level.</p>
+      website: http://shieldfoundry.com/
   gold:
     - image: aelogica.png
       description: >
@@ -217,16 +224,20 @@ sponsors:
         <p>ÆLOGICA provides team augmentation and rapid application development services to customers in the United States and around the world. ÆLOGICIANS are a dedicated team of professional developers, designers, enthusiasts, and problem-solvers with a passionate drive to make customers happy through technology.</p>
         <p>If you are looking for a great place to apply your skills and hone your craft, visit their careers page and apply.</p>
       website: http://aelogica.com
-  silver:
-    - image: launchpad_recruits.jpg
+    - image: service_seeking.png
       description: >
-        <p>We're are a team of Rails, media and mobile experts who are passionate about building a great product and learning new technologies.</p>
-        <p>We've created an online video interviewing platform that helps employers make better and faster shortlisting decisions in their candidate screening process.</p>
-        <p>We're looking for exceptional and like-minded Rails developers to join our team - <a href="http://launchpadrecruits.com/dev">learn more</a>.</p>
-      website: http://launchpadrecruits.com/dev
+        <p>ServiceSeeking Manila is the team behind Australia's hugely successful services marketplace, ServiceSeeking.com.au. Our fun-loving, dedicated and passionate staff help customers post jobs describing what they need done, and assist local Australian businesses as they quote on the work. Our branch office is located in Pasig.</p>
+        <p>We are not a call centre, and we're proud of it. We treat our employees as valuable members of the company, whose hard work is a key ingredient in our ongoing success.</p>
+      website: http://www.serviceseekingcareers.com.ph/
+  silver:
+    - image: indinero.png
+      name: indinero
+      description: >
+        <p>When we started inDinero back in 2009, we knew that we wanted to build a company that would be dedicated to helping business owners and entrepreneurs. From starting our own businesses in the past, we knew that running the back-office was a major distraction, and working with technically challenged accountants was no fun at all. Of all industries out there, accounting and tax was one of very few that had yet to be modernized. And even today, we find it odd that there are still accountants who run QuickBooks out of their basement!</p>
+        <p>From then on, we've had our hearts set on building a company that would stand for helping fellow entrepreneurs. We didn't just want to build accounting software... we wanted to completely change the way that business owners think about their operations, and taking care of all of their back-office affairs is our way of doing that.</p>
+        <p>Today, inDinero supports hundreds of businesses across the United States, and we're on a mission to support them as they grow.</p>
+      website: http://www.indinero.com/
   bronze:
-    - image: gaiax_logo.gif
-      website: http://en.gaiax.com/
     - image: engine_yard.png
       website: https://www.engineyard.com/
   tickets:

@@ -313,6 +313,9 @@ a.pure-button-primary {
 .pure-menu a, .pure-menu .pure-menu-heading {
   line-height: 0; }
 
+#indinero {
+  background: #2a3137; }
+
 @media(min-width: 360px) {
   .splash {
     margin-top: 20em; } }
