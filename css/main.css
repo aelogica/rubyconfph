@@ -168,7 +168,8 @@ tr {
   .team-members img, .sponsors img {
     padding: 0.3em;
     background: #fff;
-    box-shadow: 0 3px 10px #5d6357; }
+    box-shadow: 0 3px 10px #5d6357;
+    border-radius: 0; }
 
 .sponsors .description {
   text-align: justify; }
@@ -311,6 +312,9 @@ a.pure-button-primary {
 
 .pure-menu a, .pure-menu .pure-menu-heading {
   line-height: 0; }
+
+#indinero {
+  background: #2a3137; }
 
 @media(min-width: 360px) {
   .splash {
